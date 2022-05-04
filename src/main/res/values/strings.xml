@@ -1,0 +1,3751 @@
+<resources>
+    <string name="app_name">VACPM 2</string>
+    <string name="welcome_text">Please Select The Information Of Your Vehicles</string>
+    <string name="Year">Year</string>
+    <string name="Make">Make</string>
+    <string name="Model">Model</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="array_year">
+        <item>Select Your Vehicles Year</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+
+    <string-array name="array_make">
+        <item>Select Your Vehicles Make</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Buick</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Dodge</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Geo</item>
+        <item>GMC</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>Kia</item>
+        <item>Land Rover</item>
+        <item>Lexus</item>
+        <item>Lincoln</item>
+        <item>Mazda</item>
+        <item>Mercedes-Benz</item>
+        <item>Nissan</item>
+        <item>Porsche</item>
+        <item>Ram</item>
+        <item>Subaru</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </string-array>
+
+    <string-array name="array_model">
+        <item>Select Your Model</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Audi Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Audi">
+        <item>Select Your Model</item>
+        <item>100</item>
+        <item>100 Wagon</item>
+        <item>100 quattro</item>
+        <item>100 quattro Wagon</item>
+        <item>200</item>
+        <item>200 quattro</item>
+        <item>200 quattro 20v</item>
+        <item>200 quattro 20v Wagon</item>
+        <item>200 quattro Wagon</item>
+        <item>4000</item>
+        <item>4000 CS quattro</item>
+        <item>4000 S</item>
+        <item>4000 S quattro</item>
+        <item>4000s</item>
+        <item>4000s quattro</item>
+        <item>5000 CS Turbo</item>
+        <item>5000 CS quattro</item>
+        <item>5000 CS quattro Wagon</item>
+        <item>5000 S</item>
+        <item>5000 S quattro</item>
+        <item>5000S</item>
+        <item>5000S Wagon</item>
+        <item>80</item>
+        <item>80 quattro</item>
+        <item>80/90</item>
+        <item>80/90 quattro</item>
+        <item>90</item>
+        <item>90 quattro</item>
+        <item>90 quattro 20v</item>
+        <item>A3</item>
+        <item>A3 Cabriolet</item>
+        <item>A3 Cabriolet quattro</item>
+        <item>A3 e-tron</item>
+        <item>A3 e-tron ultra</item>
+        <item>A3 quattro</item>
+        <item>A4</item>
+        <item>A4 Avant</item>
+        <item>A4 Avant quattro</item>
+        <item>A4 Cabriolet</item>
+        <item>A4 Cabriolet quattro</item>
+        <item>A4 S line quattro</item>
+        <item>A4 Ultra</item>
+        <item>A4 allroad quattro</item>
+        <item>A4 quattro</item>
+        <item>A5 Cabriolet</item>
+        <item>A5 Cabriolet quattro</item>
+        <item>A5 Coupe quattro</item>
+        <item>A5 Sportback S line quattro</item>
+        <item>A5 Sportback quattro</item>
+        <item>A5 quattro</item>
+        <item>A6</item>
+        <item>A6 Allroad</item>
+        <item>A6 Allroad quattro</item>
+        <item>A6 Avant quattro</item>
+        <item>A6 Wagon</item>
+        <item>A6 Wagon quattro</item>
+        <item>A6 quattro</item>
+        <item>A6 quattro Wagon</item>
+        <item>A7 TFSI e quattro</item>
+        <item>A7 quattro</item>
+        <item>A8</item>
+        <item>A8 L</item>
+        <item>A8 L quattro</item>
+        <item>A8 quattro</item>
+        <item>Allroad</item>
+        <item>Allroad quattro</item>
+        <item>Cabriolet</item>
+        <item>Coupe GT</item>
+        <item>Coupe quattro</item>
+        <item>Q3</item>
+        <item>Q3 S line quattro</item>
+        <item>Q3 S-line quattro</item>
+        <item>Q3 quattro</item>
+        <item>Q4 e-tron Sportback quattro</item>
+        <item>Q4 e-tron quattro</item>
+        <item>Q5</item>
+        <item>Q5 Hybrid</item>
+        <item>Q5 S line quattro</item>
+        <item>Q5 Sportback</item>
+        <item>Q5 Sportback S line quattro</item>
+        <item>Q5 TFSI e quattro</item>
+        <item>Q5 quattro</item>
+        <item>Q7</item>
+        <item>Q7 quattro</item>
+        <item>Q8</item>
+        <item>Q8 quattro</item>
+        <item>Quattro</item>
+        <item>R8</item>
+        <item>R8 2WD</item>
+        <item>R8 AWD</item>
+        <item>R8 Coupe</item>
+        <item>R8 Coupe RWD</item>
+        <item>R8 RWD</item>
+        <item>R8 Spyder</item>
+        <item>R8 Spyder 2WD</item>
+        <item>R8 Spyder AWD</item>
+        <item>R8 Spyder RWD</item>
+        <item>RS 3</item>
+        <item>RS 5</item>
+        <item>RS 5 Cabriolet</item>
+        <item>RS 5 Coupe</item>
+        <item>RS 5 Sportback</item>
+        <item>RS 6 Avant</item>
+        <item>RS 7</item>
+        <item>RS Q8</item>
+        <item>RS e-tron GT</item>
+        <item>RS3</item>
+        <item>RS4</item>
+        <item>RS4 Cabriolet</item>
+        <item>RS6</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>S4 Avant</item>
+        <item>S4 Cabriolet</item>
+        <item>S5</item>
+        <item>S5 Cabriolet</item>
+        <item>S5 Coupe</item>
+        <item>S5 Sportback</item>
+        <item>S6</item>
+        <item>S6 Avant</item>
+        <item>S6 Wagon</item>
+        <item>S7</item>
+        <item>S8</item>
+        <item>S8 quattro</item>
+        <item>SQ5</item>
+        <item>SQ5 Sportback</item>
+        <item>SQ7</item>
+        <item>SQ8</item>
+        <item>TT Coupe</item>
+        <item>TT Coupe quattro</item>
+        <item>TT RS</item>
+        <item>TT RS Coupe</item>
+        <item>TT Roadster</item>
+        <item>TT Roadster quattro</item>
+        <item>TTS Coupe</item>
+        <item>TTS Coupe quattro</item>
+        <item>V8</item>
+        <item>allroad quattro</item>
+        <item>e-tron</item>
+        <item>e-tron GT</item>
+        <item>e-tron S (20in wheels)</item>
+        <item>e-tron S (21in or 22in wheels)</item>
+        <item>e-tron S Sportback (20in wheels)</item>
+        <item>e-tron S Sportback (21/22in wheels)</item>
+        <item>e-tron Sportback</item>
+        <item>e-tron Sportback quattro</item>
+        <item>e-tron quattro</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of BMW Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_BMW">
+        <item>Select Your Model</item>
+        <item>128ci Convertible</item>
+        <item>128i</item>
+        <item>128i Convertible</item>
+        <item>135i</item>
+        <item>135i Convertible</item>
+        <item>228i</item>
+        <item>228i Convertible</item>
+        <item>228i Gran Coupe</item>
+        <item>228i xDrive</item>
+        <item>228i xDrive Convertible</item>
+        <item>228i xDrive Gran Coupe</item>
+        <item>230i Convertible</item>
+        <item>230i Coupe</item>
+        <item>230i xDrive Convertible</item>
+        <item>230i xDrive Coupe</item>
+        <item>3 Series</item>
+        <item>318i</item>
+        <item>318i Convertible</item>
+        <item>318i/318iS</item>
+        <item>318i/318is</item>
+        <item>318is</item>
+        <item>318is Convertible</item>
+        <item>318ti</item>
+        <item>320i</item>
+        <item>320i xDrive</item>
+        <item>323ci</item>
+        <item>323i</item>
+        <item>323i Convertible</item>
+        <item>323i Touring</item>
+        <item>323is</item>
+        <item>325ci</item>
+        <item>325ci Convertible</item>
+        <item>325i</item>
+        <item>325i Convertible</item>
+        <item>325i Sport Wagon</item>
+        <item>325i/325iS</item>
+        <item>325i/325is</item>
+        <item>325ic</item>
+        <item>325is</item>
+        <item>325ix</item>
+        <item>325xi</item>
+        <item>325xi Sport Wagon</item>
+        <item>328ci</item>
+        <item>328ci Convertible</item>
+        <item>328ci xDrive</item>
+        <item>328cxi</item>
+        <item>328d</item>
+        <item>328d xDrive</item>
+        <item>328d xDrive Sports Wagon</item>
+        <item>328i</item>
+        <item>328i Convertible</item>
+        <item>328i Coupe</item>
+        <item>328i Coupe xDrive</item>
+        <item>328i Sport Wagon</item>
+        <item>328i Sport Wagon xDrive</item>
+        <item>328i Sports Wagon</item>
+        <item>328i xDrive</item>
+        <item>328i xDrive Gran Turismo</item>
+        <item>328i xDrive Sport Wagon</item>
+        <item>328i xDrive Sports Wagon</item>
+        <item>328i/328is</item>
+        <item>328ic</item>
+        <item>328is</item>
+        <item>328xi</item>
+        <item>328xi Sport Wagon</item>
+        <item>330ci</item>
+        <item>330ci Convertible</item>
+        <item>330e</item>
+        <item>330e Sedan</item>
+        <item>330e xDrive</item>
+        <item>330e xDrive Sedan</item>
+        <item>330i</item>
+        <item>330i Sedan</item>
+        <item>330i xDrive</item>
+        <item>330i xDrive Gran Turismo</item>
+        <item>330i xDrive Sedan</item>
+        <item>330i xDrive Sports Wagon</item>
+        <item>330xi</item>
+        <item>335ci</item>
+        <item>335ci Convertible</item>
+        <item>335ci xDrive</item>
+        <item>335cxi</item>
+        <item>335d</item>
+        <item>335i</item>
+        <item>335i Convertible</item>
+        <item>335i Coupe</item>
+        <item>335i Coupe xDrive</item>
+        <item>335i xDrive</item>
+        <item>335i xDrive Gran Turismo</item>
+        <item>335is Convertible</item>
+        <item>335is Coupe</item>
+        <item>335xi</item>
+        <item>340i</item>
+        <item>340i xDrive</item>
+        <item>340i xDrive Gran Turismo</item>
+        <item>428i Convertible</item>
+        <item>428i Coupe</item>
+        <item>428i Gran Coupe</item>
+        <item>428i xDrive Convertible</item>
+        <item>428i xDrive Coupe</item>
+        <item>428i xDrive Gran Coupe</item>
+        <item>430i Convertible</item>
+        <item>430i Coupe</item>
+        <item>430i Gran Coupe</item>
+        <item>430i xDrive Convertible</item>
+        <item>430i xDrive Coupe</item>
+        <item>430i xDrive Gran Coupe</item>
+        <item>435i Convertible</item>
+        <item>435i Coupe</item>
+        <item>435i Gran Coupe</item>
+        <item>435i xDrive Convertible</item>
+        <item>435i xDrive Coupe</item>
+        <item>435i xDrive Gran Coupe</item>
+        <item>440i Convertible</item>
+        <item>440i Coupe</item>
+        <item>440i Gran Coupe</item>
+        <item>440i xDrive Convertible</item>
+        <item>440i xDrive Coupe</item>
+        <item>440i xDrive Gran Coupe</item>
+        <item>5 Series</item>
+        <item>525i</item>
+        <item>525i Sport Wagon</item>
+        <item>525i Touring</item>
+        <item>525xi</item>
+        <item>528i</item>
+        <item>528i Sport Wagon</item>
+        <item>528i Touring</item>
+        <item>528i xDrive</item>
+        <item>528xi</item>
+        <item>530e</item>
+        <item>530e Sedan</item>
+        <item>530e xDrive</item>
+        <item>530e xDrive Sedan</item>
+        <item>530i</item>
+        <item>530i Sedan</item>
+        <item>530i Touring</item>
+        <item>530i xDrive</item>
+        <item>530i xDrive Sedan</item>
+        <item>530xi</item>
+        <item>530xi Sport Wagon</item>
+        <item>535d</item>
+        <item>535d xDrive</item>
+        <item>535i</item>
+        <item>535i Gran Turismo</item>
+        <item>535i Sport Wagon xDrive</item>
+        <item>535i xDrive</item>
+        <item>535i xDrive Gran Turismo</item>
+        <item>535xi</item>
+        <item>535xi Sport Wagon</item>
+        <item>540d xDrive</item>
+        <item>540i</item>
+        <item>540i Sedan</item>
+        <item>540i Sport Wagon</item>
+        <item>540i Touring</item>
+        <item>540i xDrive</item>
+        <item>540i xDrive Sedan</item>
+        <item>545i</item>
+        <item>550 GT</item>
+        <item>550i</item>
+        <item>550i Gran Turismo</item>
+        <item>550i xDrive</item>
+        <item>550i xDrive GT</item>
+        <item>550i xDrive Gran Turismo</item>
+        <item>6 Series</item>
+        <item>635csi</item>
+        <item>640i Convertible</item>
+        <item>640i Coupe</item>
+        <item>640i Gran Coupe</item>
+        <item>640i xDrive Convertible</item>
+        <item>640i xDrive Coupe</item>
+        <item>640i xDrive Gran Coupe</item>
+        <item>640i xDrive Gran Turismo</item>
+        <item>645ci</item>
+        <item>645ci Convertible</item>
+        <item>650ci</item>
+        <item>650ci Convertible</item>
+        <item>650i Convertible</item>
+        <item>650i Convertible xDrive</item>
+        <item>650i Coupe</item>
+        <item>650i Coupe xDrive</item>
+        <item>650i Gran Coupe</item>
+        <item>650i xDrive Convertible</item>
+        <item>650i xDrive Coupe</item>
+        <item>650i xDrive Gran Coupe</item>
+        <item>7 Series</item>
+        <item>735i</item>
+        <item>735i Luxury</item>
+        <item>735il</item>
+        <item>740Ld xDrive</item>
+        <item>740Li</item>
+        <item>740Li xDrive</item>
+        <item>740e xDrive</item>
+        <item>740i</item>
+        <item>740i Sedan</item>
+        <item>740i xDrive</item>
+        <item>740i xDrive Sedan</item>
+        <item>740i/740i Sport</item>
+        <item>740il</item>
+        <item>740il/740il Protection</item>
+        <item>745e xDrive</item>
+        <item>745i</item>
+        <item>745li</item>
+        <item>750 Series</item>
+        <item>750Li</item>
+        <item>750Li xDrive</item>
+        <item>750i</item>
+        <item>750i xDrive</item>
+        <item>750i xDrive Sedan</item>
+        <item>750il</item>
+        <item>750il/750il Protection</item>
+        <item>750li</item>
+        <item>760Li</item>
+        <item>760i</item>
+        <item>760li</item>
+        <item>840ci</item>
+        <item>840i Convertible</item>
+        <item>840i Coupe</item>
+        <item>840i Gran Coupe</item>
+        <item>840i xDrive Convertible</item>
+        <item>840i xDrive Coupe</item>
+        <item>840i xDrive Gran Coupe</item>
+        <item>850ci</item>
+        <item>850csi</item>
+        <item>850i</item>
+        <item>Active E</item>
+        <item>ActiveHybrid 3</item>
+        <item>ActiveHybrid 5</item>
+        <item>ActiveHybrid 7</item>
+        <item>ActiveHybrid 7L</item>
+        <item>ActiveHybrid 7Li</item>
+        <item>ActiveHybrid 7i</item>
+        <item>ActiveHybrid X6</item>
+        <item>Alpina B6 Gran Coupe xDrive</item>
+        <item>Alpina B6 xDrive Gran Coupe</item>
+        <item>Alpina B7</item>
+        <item>Alpina B7 LWB</item>
+        <item>Alpina B7 LWB xDrive</item>
+        <item>Alpina B7 SWB</item>
+        <item>Alpina B7 SWB xDrive</item>
+        <item>Alpina B7 xDrive</item>
+        <item>Alpina B8 Gran Coupe</item>
+        <item>Alpina XB7</item>
+        <item>I8 Coupe</item>
+        <item>I8 Roadster</item>
+        <item>M Coupe</item>
+        <item>M Roadster</item>
+        <item>M1 Coupe</item>
+        <item>M2</item>
+        <item>M2 CS Coupe</item>
+        <item>M2 Competition</item>
+        <item>M2 Competition Coupe</item>
+        <item>M235i</item>
+        <item>M235i Convertible</item>
+        <item>M235i xDrive</item>
+        <item>M235i xDrive Convertible</item>
+        <item>M235i xDrive Gran Coupe</item>
+        <item>M240i Convertible</item>
+        <item>M240i Coupe</item>
+        <item>M240i Coupe M Performance</item>
+        <item>M240i xDrive Convertible</item>
+        <item>M240i xDrive Coupe</item>
+        <item>M240i xDrive Coupe M Performance</item>
+        <item>M3</item>
+        <item>M3 CS</item>
+        <item>M3 Competition</item>
+        <item>M3 Competition M xDrive Sedan</item>
+        <item>M3 Competition Sedan</item>
+        <item>M3 Convertible</item>
+        <item>M3 Coupe</item>
+        <item>M3 Sedan</item>
+        <item>M340i</item>
+        <item>M340i Sedan</item>
+        <item>M340i xDrive</item>
+        <item>M340i xDrive Sedan</item>
+        <item>M4 CS</item>
+        <item>M4 Competition Coupe</item>
+        <item>M4 Competition M xDrive Convertible</item>
+        <item>M4 Competition M xDrive Coupe</item>
+        <item>M4 Convertible</item>
+        <item>M4 Convertible Competition</item>
+        <item>M4 Coupe</item>
+        <item>M4 Coupe Competition</item>
+        <item>M4 DTM Champions Edition</item>
+        <item>M4 GTS</item>
+        <item>M440i Convertible</item>
+        <item>M440i Coupe</item>
+        <item>M440i xDrive Convertible</item>
+        <item>M440i xDrive Coupe</item>
+        <item>M440i xDrive Gran Coupe</item>
+        <item>M5</item>
+        <item>M5 CS Sedan</item>
+        <item>M5 Competition</item>
+        <item>M5 Competition Sedan</item>
+        <item>M5 Sedan</item>
+        <item>M550i xDrive</item>
+        <item>M550i xDrive Sedan</item>
+        <item>M6</item>
+        <item>M6 Convertible</item>
+        <item>M6 Coupe</item>
+        <item>M6 Gran Coupe</item>
+        <item>M760i xDrive</item>
+        <item>M760i xDrive Sedan</item>
+        <item>M8 Competition Convertible</item>
+        <item>M8 Competition Coupe</item>
+        <item>M8 Competition Gran Coupe</item>
+        <item>M8 Convertible</item>
+        <item>M8 Coupe</item>
+        <item>M8 Gran Coupe</item>
+        <item>M850i xDrive Convertible</item>
+        <item>M850i xDrive Coupe</item>
+        <item>M850i xDrive Gran Coupe</item>
+        <item>X1 sDrive28i</item>
+        <item>X1 xDrive28i</item>
+        <item>X1 xDrive35i</item>
+        <item>X2 M35i</item>
+        <item>X2 sDrive28i</item>
+        <item>X2 xDrive28i</item>
+        <item>X3</item>
+        <item>X3 3.0i</item>
+        <item>X3 3.0si</item>
+        <item>X3 M</item>
+        <item>X3 M Competition</item>
+        <item>X3 M40i</item>
+        <item>X3 sDrive 28i</item>
+        <item>X3 sDrive28i</item>
+        <item>X3 sDrive30i</item>
+        <item>X3 xDrive28d</item>
+        <item>X3 xDrive28i</item>
+        <item>X3 xDrive30e</item>
+        <item>X3 xDrive30i</item>
+        <item>X3 xDrive35i</item>
+        <item>X4 M</item>
+        <item>X4 M Competition</item>
+        <item>X4 M40i</item>
+        <item>X4 xDrive28i</item>
+        <item>X4 xDrive30i</item>
+        <item>X4 xDrive35i</item>
+        <item>X5</item>
+        <item>X5 3.0si</item>
+        <item>X5 4.6is</item>
+        <item>X5 4.8IS</item>
+        <item>X5 4.8i</item>
+        <item>X5 4.8is</item>
+        <item>X5 M</item>
+        <item>X5 M Competition</item>
+        <item>X5 M50i</item>
+        <item>X5 sDrive35i</item>
+        <item>X5 sDrive40i</item>
+        <item>X5 xDrive 35d</item>
+        <item>X5 xDrive30i</item>
+        <item>X5 xDrive35d</item>
+        <item>X5 xDrive35i</item>
+        <item>X5 xDrive40e</item>
+        <item>X5 xDrive40i</item>
+        <item>X5 xDrive45e</item>
+        <item>X5 xDrive48i</item>
+        <item>X5 xDrive50i</item>
+        <item>X5 xDriveM</item>
+        <item>X6 M</item>
+        <item>X6 M Competition</item>
+        <item>X6 M50i</item>
+        <item>X6 sDrive35i</item>
+        <item>X6 sDrive40i</item>
+        <item>X6 xDrive35i</item>
+        <item>X6 xDrive40i</item>
+        <item>X6 xDrive50i</item>
+        <item>X6 xDriveM</item>
+        <item>X7 M50i</item>
+        <item>X7 xDrive40i</item>
+        <item>X7 xDrive50i</item>
+        <item>Z3 Coupe</item>
+        <item>Z3 Roadster</item>
+        <item>Z4 3.0i</item>
+        <item>Z4 3.0si</item>
+        <item>Z4 3.0si Coupe</item>
+        <item>Z4 Coupe</item>
+        <item>Z4 M Coupe</item>
+        <item>Z4 M Roadster</item>
+        <item>Z4 M40i</item>
+        <item>Z4 Roadster</item>
+        <item>Z4 sDrive28i</item>
+        <item>Z4 sDrive30i</item>
+        <item>Z4 sDrive35i</item>
+        <item>Z4 sDrive35is</item>
+        <item>Z8</item>
+        <item>i3</item>
+        <item>i3 (94Ah)</item>
+        <item>i3 (94Ah) with Range Extender</item>
+        <item>i3 BEV</item>
+        <item>i3 BEV (60  Amp-hour battery)</item>
+        <item>i3 BEV (94 Amp-hour battery)</item>
+        <item>i3 REX</item>
+        <item>i3 REX  (94 Amp-hour battery)</item>
+        <item>i3 with Range Extender</item>
+        <item>i3s</item>
+        <item>i3s (94Ah)</item>
+        <item>i3s (94Ah) with Range Extender</item>
+        <item>i3s with Range Extender</item>
+        <item>i4 M50 Gran Coupe (19in Wheels)</item>
+        <item>i4 M50 Gran Coupe (20in Wheels)</item>
+        <item>i4 eDrive40 Gran Coupe (18in Wheels)</item>
+        <item>i4 eDrive40 Gran Coupe (19in Wheels)</item>
+        <item>i8</item>
+        <item>iX xDrive50 (20in Wheels)</item>
+        <item>iX xDrive50 (21in Wheels)</item>
+        <item>iX xDrive50 (22in Wheels)</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Buick Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Buick">
+        <item>Select Your Model</item>
+        <item>Cascada</item>
+        <item>Century</item>
+        <item>Century Estate Wagon</item>
+        <item>Century Wagon</item>
+        <item>Coachbuilder Wagon</item>
+        <item>Electra Estate Wagon</item>
+        <item>Electra/Park Avenue</item>
+        <item>Enclave AWD</item>
+        <item>Enclave FWD</item>
+        <item>Encore</item>
+        <item>Encore AWD</item>
+        <item>Encore FWD</item>
+        <item>Encore GX AWD</item>
+        <item>Encore GX FWD</item>
+        <item>Envision AWD</item>
+        <item>Envision FWD</item>
+        <item>Estate Wagon</item>
+        <item>Funeral Coach/Hearse</item>
+        <item>LaCrosse</item>
+        <item>LaCrosse AWD</item>
+        <item>LaCrosse eAssist</item>
+        <item>Lacrosse/Allure</item>
+        <item>Lacrosse/Allure AWD</item>
+        <item>LeSabre</item>
+        <item>LeSabre/Electra Wagon</item>
+        <item>Lucerne</item>
+        <item>Park Avenue</item>
+        <item>Rainier 2WD</item>
+        <item>Rainier AWD</item>
+        <item>Reatta</item>
+        <item>Regal</item>
+        <item>Regal AWD</item>
+        <item>Regal TourX AWD</item>
+        <item>Regal eAssist</item>
+        <item>Regal/Century</item>
+        <item>Rendezvous AWD</item>
+        <item>Rendezvous FWD</item>
+        <item>Riviera</item>
+        <item>Riviera Convertible</item>
+        <item>Roadmaster</item>
+        <item>Roadmaster Wagon</item>
+        <item>Skyhawk</item>
+        <item>Skyhawk Wagon</item>
+        <item>Skylark</item>
+        <item>Somerset Regal</item>
+        <item>Somerset/Skylark</item>
+        <item>Terraza AWD</item>
+        <item>Terraza FWD</item>
+        <item>Verano</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Cadillac Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Cadillac">
+        <item>Select Your Model</item>
+        <item>ATS</item>
+        <item>ATS AWD</item>
+        <item>ATS-V</item>
+        <item>Allante</item>
+        <item>Armored DTS</item>
+        <item>Armored Deville</item>
+        <item>Brougham</item>
+        <item>Brougham/DeVille (RWD)</item>
+        <item>CT4</item>
+        <item>CT4 AWD</item>
+        <item>CT4 V</item>
+        <item>CT4 V AWD</item>
+        <item>CT5</item>
+        <item>CT5 AWD</item>
+        <item>CT5 V</item>
+        <item>CT5 V AWD</item>
+        <item>CT6</item>
+        <item>CT6 AWD</item>
+        <item>CT6 Plug-In</item>
+        <item>CTS</item>
+        <item>CTS AWD</item>
+        <item>CTS Sedan</item>
+        <item>CTS Sedan AWD</item>
+        <item>CTS V</item>
+        <item>CTS Wagon</item>
+        <item>CTS Wagon AWD</item>
+        <item>CTS-V</item>
+        <item>Catera</item>
+        <item>Cimarron</item>
+        <item>Commercial Chassis</item>
+        <item>DTS</item>
+        <item>DeVille</item>
+        <item>DeVille/60 Special</item>
+        <item>DeVille/Concourse</item>
+        <item>ELR</item>
+        <item>ELR Sport</item>
+        <item>Eldorado</item>
+        <item>Eldorado Convertible</item>
+        <item>Escalade 2WD</item>
+        <item>Escalade 4WD</item>
+        <item>Escalade AWD</item>
+        <item>Escalade ESV 2WD</item>
+        <item>Escalade ESV 4WD</item>
+        <item>Escalade ESV AWD</item>
+        <item>Escalade Ext AWD</item>
+        <item>Escalade Hybrid 2WD</item>
+        <item>Escalade Hybrid 4WD</item>
+        <item>Fleetwood</item>
+        <item>Fleetwood Brougham</item>
+        <item>Fleetwood Brougham (RWD)</item>
+        <item>Fleetwood/DeVille</item>
+        <item>Fleetwood/DeVille (FWD)</item>
+        <item>Funeral Coach / Hearse</item>
+        <item>Funeral Coach/Hearse</item>
+        <item>Limousine</item>
+        <item>SRX</item>
+        <item>SRX 2WD</item>
+        <item>SRX AWD</item>
+        <item>STS</item>
+        <item>STS 2WD</item>
+        <item>STS AWD</item>
+        <item>STS-V</item>
+        <item>Seville</item>
+        <item>XLR</item>
+        <item>XLR-V</item>
+        <item>XT4 AWD</item>
+        <item>XT4 FWD</item>
+        <item>XT5</item>
+        <item>XT5 AWD</item>
+        <item>XT5 FWD</item>
+        <item>XT5 Hearse AWD</item>
+        <item>XT5 Hearse FWD</item>
+        <item>XT5 Limo AWD</item>
+        <item>XT5 Limo FWD</item>
+        <item>XT6 AWD</item>
+        <item>XT6 FWD</item>
+        <item>XTS</item>
+        <item>XTS AWD</item>
+        <item>XTS Hearse</item>
+        <item>XTS Limo</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Chevrolet Model ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Chevrolet">
+        <item>Select Your Model</item>
+        <item>Astro 2WD (cargo)</item>
+        <item>Astro 2WD (cargo) Conversion</item>
+        <item>Astro 2WD (passenger)</item>
+        <item>Astro AWD (cargo)</item>
+        <item>Astro AWD (cargo) Conversion</item>
+        <item>Astro AWD (passenger)</item>
+        <item>Avalanche 1500 2WD</item>
+        <item>Avalanche 1500 4WD</item>
+        <item>Avalanche 1500 AWD</item>
+        <item>Aveo</item>
+        <item>Aveo 5</item>
+        <item>Beretta</item>
+        <item>Blazer 1500 4WD</item>
+        <item>Blazer 2WD</item>
+        <item>Blazer 4WD</item>
+        <item>Blazer AWD</item>
+        <item>Blazer FWD</item>
+        <item>Blazer V1500 4WD</item>
+        <item>Bolt EUV</item>
+        <item>Bolt EV</item>
+        <item>C10 Pickup 2WD</item>
+        <item>C1500 Pickup 2WD</item>
+        <item>C20 Pickup 2WD</item>
+        <item>C2500 Pickup 2WD</item>
+        <item>Camaro</item>
+        <item>Caprice</item>
+        <item>Caprice Wagon</item>
+        <item>Caprice/Impala</item>
+        <item>Caprice/Impala Wagon</item>
+        <item>Captiva AWD</item>
+        <item>Captiva FWD</item>
+        <item>Cavalier</item>
+        <item>Cavalier (Bi-fuel CNG)</item>
+        <item>Cavalier Convertible</item>
+        <item>Cavalier Dual-fuel</item>
+        <item>Cavalier Wagon</item>
+        <item>Celebrity</item>
+        <item>Celebrity Wagon</item>
+        <item>Chevette</item>
+        <item>Chevette CS</item>
+        <item>Citation II</item>
+        <item>City Express Cargo Van</item>
+        <item>Classic</item>
+        <item>Coachbuilder Wagon</item>
+        <item>Cobalt</item>
+        <item>Cobalt Coupe</item>
+        <item>Cobalt SS Coupe</item>
+        <item>Cobalt Sedan</item>
+        <item>Cobalt XFE</item>
+        <item>Cobalt XFE Coupe</item>
+        <item>Cobalt XFE Sedan</item>
+        <item>Colorado 2WD</item>
+        <item>Colorado 4WD</item>
+        <item>Colorado Cab Chassis 2WD</item>
+        <item>Colorado Cab Chassis inc 2WD</item>
+        <item>Colorado Cab Chassis inc 4WD</item>
+        <item>Colorado Crew Cab 2WD</item>
+        <item>Colorado Crew Cab 4WD</item>
+        <item>Colorado ZR2 4WD</item>
+        <item>Corsica</item>
+        <item>Corvette</item>
+        <item>Corvette Convertible</item>
+        <item>Corvette Z06</item>
+        <item>Corvette ZR1</item>
+        <item>Cruze</item>
+        <item>Cruze Eco</item>
+        <item>Cruze Hatchback</item>
+        <item>Cruze Limited</item>
+        <item>Cruze Limited  Eco</item>
+        <item>Cruze Premier</item>
+        <item>Cruze Premier Hatchback</item>
+        <item>El Camino Pickup 2WD</item>
+        <item>Epica</item>
+        <item>Equinox AWD</item>
+        <item>Equinox FWD</item>
+        <item>Express 1500 2WD Cargo</item>
+        <item>Express 1500 2WD Conversion Cargo</item>
+        <item>Express 1500 2WD Passenger</item>
+        <item>Express 1500 AWD</item>
+        <item>Express 1500 AWD Cargo</item>
+        <item>Express 1500 AWD Conversion Cargo</item>
+        <item>Express 1500 AWD Passenger</item>
+        <item>Express 1500/2500 2WD</item>
+        <item>Express 2500 2WD Cargo</item>
+        <item>Express 2500 2WD Conversion Cargo</item>
+        <item>Express 2500 2WD Passenger</item>
+        <item>Express 3500 2WD Cargo</item>
+        <item>Express 3500 2WD Passenger</item>
+        <item>Express Cargo (Bi-fuel)</item>
+        <item>Express Cargo (dedicated CNG)</item>
+        <item>Express Passenger (Bi-fuel)</item>
+        <item>Express Passenger (dedicated CNG)</item>
+        <item>G10/20 Sport Van 2WD</item>
+        <item>G10/20 Van 2WD</item>
+        <item>G10/20 Van 2WD (cargo)</item>
+        <item>G30 Sport Van 2WD</item>
+        <item>G30 Van 2WD</item>
+        <item>G30 Van 2WD (cargo)</item>
+        <item>HHR FWD</item>
+        <item>HHR Panel FWD</item>
+        <item>Impala</item>
+        <item>Impala Bi-Fuel  (CNG)</item>
+        <item>Impala Limited</item>
+        <item>Impala Police</item>
+        <item>Impala eAssist</item>
+        <item>Impala/Caprice</item>
+        <item>K10 Blazer 4WD</item>
+        <item>K10 Pickup 4WD</item>
+        <item>K1500 Pickup 4WD</item>
+        <item>K20 Pickup 4WD</item>
+        <item>K2500 Pickup 4WD</item>
+        <item>K5/K10 Blazer 4WD</item>
+        <item>Lumina</item>
+        <item>Lumina Minivan 2WD</item>
+        <item>Lumina/APV Minivan 2WD</item>
+        <item>Lumina/Monte Carlo</item>
+        <item>Malibu</item>
+        <item>Malibu Hybrid</item>
+        <item>Malibu Limited</item>
+        <item>Malibu Maxx</item>
+        <item>Malibu eAssist</item>
+        <item>Metro</item>
+        <item>Monte Carlo</item>
+        <item>Nova</item>
+        <item>Optra</item>
+        <item>Optra 5</item>
+        <item>Optra Wagon</item>
+        <item>Pickup 2500 2WD</item>
+        <item>Pickup 2500 4WD</item>
+        <item>Postal Cab Chassis 2WD</item>
+        <item>Prizm</item>
+        <item>R10 Pickup 2WD</item>
+        <item>R10 Suburban 2WD</item>
+        <item>R1500 Suburban 2WD</item>
+        <item>R20 (C20) Pickup 2WD</item>
+        <item>S10 Blazer 2WD</item>
+        <item>S10 Blazer 4WD</item>
+        <item>S10 Cab Chassis 2WD</item>
+        <item>S10 Electric</item>
+        <item>S10 Pickup 2WD</item>
+        <item>S10 Pickup 2WD FFV</item>
+        <item>S10 Pickup 4WD</item>
+        <item>S10 Utility Body 2WD</item>
+        <item>SS</item>
+        <item>SSR Pickup 2WD</item>
+        <item>Silverado 15 Hybrid 2WD</item>
+        <item>Silverado 15 Hybrid 4WD</item>
+        <item>Silverado 1500 2WD</item>
+        <item>Silverado 1500 4WD</item>
+        <item>Silverado 1500 AWD</item>
+        <item>Silverado 2500 2WD</item>
+        <item>Silverado 2500 2WD (Bifuel)</item>
+        <item>Silverado 2500 HD 2WD</item>
+        <item>Silverado 2500 HD 2WD CNG</item>
+        <item>Silverado 2500 HD 4WD CNG</item>
+        <item>Silverado 2WD</item>
+        <item>Silverado 4WD</item>
+        <item>Silverado 4WD TrailBoss</item>
+        <item>Silverado 4WD ZR2</item>
+        <item>Silverado C10 2WD</item>
+        <item>Silverado C10 Cab Chassis 2WD</item>
+        <item>Silverado C10 XFE 2WD</item>
+        <item>Silverado C15 2WD</item>
+        <item>Silverado C15 Cab Chassis 2WD</item>
+        <item>Silverado C15 XFE 2WD</item>
+        <item>Silverado Cab Chassis 2WD</item>
+        <item>Silverado Cab Chassis 4WD</item>
+        <item>Silverado Classic 15 Hybrid 2WD</item>
+        <item>Silverado Classic 15 Hybrid 4WD</item>
+        <item>Silverado Classic 1500 2WD</item>
+        <item>Silverado Classic 1500 4WD</item>
+        <item>Silverado K10 4WD</item>
+        <item>Silverado K10 4WD TrailBoss</item>
+        <item>Silverado K10 Cab Chassis 4WD</item>
+        <item>Silverado K15 4WD</item>
+        <item>Silverado K15 Cab Chassis 4WD</item>
+        <item>Silverado LD C15 2WD</item>
+        <item>Silverado LD K15 4WD</item>
+        <item>Silverado Mud Terrain Tires 4WD</item>
+        <item>Silverado SS 1500 AWD</item>
+        <item>Sonic</item>
+        <item>Sonic 5</item>
+        <item>Sonic 5 RS</item>
+        <item>Sonic RS</item>
+        <item>Spark</item>
+        <item>Spark ACTIV</item>
+        <item>Spark EV</item>
+        <item>Spectrum</item>
+        <item>Spectrum Turbo</item>
+        <item>Sport Van G10/20 2WD</item>
+        <item>Sport Van G10/20 2WD (passenger)</item>
+        <item>Sport Van G30  2WD</item>
+        <item>Sport Van G30 2WD</item>
+        <item>Sport Van G30 2WD (cargo)</item>
+        <item>Sprint</item>
+        <item>Sprint ER</item>
+        <item>Sprint Metro</item>
+        <item>Sprint Plus</item>
+        <item>Suburban 1500 2WD</item>
+        <item>Suburban 1500 4WD</item>
+        <item>Suburban 1500 AWD</item>
+        <item>Suburban 2500 2WD</item>
+        <item>Suburban 2500 4WD</item>
+        <item>Suburban 2WD</item>
+        <item>Suburban 4WD</item>
+        <item>Suburban C10 2WD</item>
+        <item>Suburban C1500 2WD</item>
+        <item>Suburban K10 4WD</item>
+        <item>Suburban K1500 4WD</item>
+        <item>Suburban V1500 4WD</item>
+        <item>T10 (S10) Blazer 4WD</item>
+        <item>T10 (S10) Pickup 4WD</item>
+        <item>Tahoe 1500 2WD</item>
+        <item>Tahoe 1500 4WD</item>
+        <item>Tahoe 1500 AWD</item>
+        <item>Tahoe 1500 XFE 2WD</item>
+        <item>Tahoe 2WD</item>
+        <item>Tahoe 4WD</item>
+        <item>Tahoe C10 2WD</item>
+        <item>Tahoe C1500 2WD</item>
+        <item>Tahoe Hybrid 2WD</item>
+        <item>Tahoe Hybrid 4WD</item>
+        <item>Tahoe K10 4WD</item>
+        <item>Tahoe K1500 4WD</item>
+        <item>Tracker 2WD Convertible</item>
+        <item>Tracker 2WD Hardtop</item>
+        <item>Tracker 4WD Convertible</item>
+        <item>Tracker 4WD Hardtop</item>
+        <item>Tracker LT 2WD</item>
+        <item>Tracker LT 4WD</item>
+        <item>Tracker ZR2 4WD</item>
+        <item>Tracker ZR2 4WD Convertible</item>
+        <item>TrailBlazer 2WD</item>
+        <item>TrailBlazer 4WD</item>
+        <item>TrailBlazer AWD</item>
+        <item>TrailBlazer Ext 2WD</item>
+        <item>TrailBlazer Ext 4WD</item>
+        <item>Trailblazer AWD</item>
+        <item>Trailblazer FWD</item>
+        <item>Traverse AWD</item>
+        <item>Traverse FWD</item>
+        <item>Trax</item>
+        <item>Trax AWD</item>
+        <item>Trax FWD</item>
+        <item>Turbo Sprint</item>
+        <item>Twin-Turbo Corvette</item>
+        <item>Uplander AWD</item>
+        <item>Uplander FWD</item>
+        <item>V10 (K10) Blazer 4WD</item>
+        <item>V10 (K10) Pickup 4WD</item>
+        <item>V10 (K10) Suburban 4WD</item>
+        <item>V10 Blazer 4WD</item>
+        <item>V10 Suburban 4WD</item>
+        <item>V20 Pickup 4WD</item>
+        <item>Van 15/25  2WD Conversion</item>
+        <item>Van 15/25 2WD Conversion</item>
+        <item>Van 1500 2WD Cargo</item>
+        <item>Van 1500 2WD Conversion Cargo</item>
+        <item>Van 1500 AWD Cargo</item>
+        <item>Van 1500 AWD Conversion</item>
+        <item>Van 1500 AWD Conversion Cargo</item>
+        <item>Van 1500/2500 2WD</item>
+        <item>Van 1500/2500 AWD</item>
+        <item>Venture 2WD</item>
+        <item>Venture AWD</item>
+        <item>Venture FWD</item>
+        <item>Volt</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Chrysler Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Chrysler">
+        <item>Select Your Model</item>
+        <item>200</item>
+        <item>200 AWD</item>
+        <item>200 Convertible</item>
+        <item>300</item>
+        <item>300 AWD</item>
+        <item>300 M</item>
+        <item>300 SRT8</item>
+        <item>300/SRT-8</item>
+        <item>300C AWD</item>
+        <item>300C/SRT-8</item>
+        <item>Aspen 2WD</item>
+        <item>Aspen 4WD</item>
+        <item>Aspen HEV</item>
+        <item>Cirrus</item>
+        <item>Concorde</item>
+        <item>Concorde/LHS</item>
+        <item>Conquest</item>
+        <item>Crossfire</item>
+        <item>Crossfire Coupe</item>
+        <item>Crossfire Roadster</item>
+        <item>E Class/New Yorker</item>
+        <item>Executive Sedan/Limousine</item>
+        <item>Fifth Avenue/Imperial</item>
+        <item>Imperial/New Yorker Fifth Avenue</item>
+        <item>JX/JXI/Limited Convertible</item>
+        <item>LHS</item>
+        <item>Laser</item>
+        <item>Laser/Daytona</item>
+        <item>LeBaron</item>
+        <item>LeBaron Convertible</item>
+        <item>LeBaron GTS</item>
+        <item>LeBaron Landau</item>
+        <item>Limousine</item>
+        <item>New Yorker</item>
+        <item>New Yorker Fifth Avenue/Imperial</item>
+        <item>New Yorker Turbo</item>
+        <item>New Yorker/5th Avenue</item>
+        <item>New Yorker/LHS</item>
+        <item>Newport/Fifth Avenue</item>
+        <item>PT Cruiser</item>
+        <item>PT Cruiser Convertible</item>
+        <item>Pacifica</item>
+        <item>Pacifica 2WD</item>
+        <item>Pacifica AWD</item>
+        <item>Pacifica FWD</item>
+        <item>Pacifica Hybrid</item>
+        <item>Prowler</item>
+        <item>QC Car</item>
+        <item>Sebring</item>
+        <item>Sebring 4 Door</item>
+        <item>Sebring AWD</item>
+        <item>Sebring Convertible</item>
+        <item>TC By</item>
+        <item>TC By Convertible</item>
+        <item>TC by Maserati</item>
+        <item>Town and Country</item>
+        <item>Town and Country 2WD</item>
+        <item>Town and Country 4WD</item>
+        <item>Town and Country AWD</item>
+        <item>Town and Country Wagon</item>
+        <item>Town and Country/Voyager/Grand Voy. 2WD</item>
+        <item>Town and Country/Voyager/Grand Voy. AWD</item>
+        <item>Voyager</item>
+        <item>Voyager/Town and Country 2WD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Dodge Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Dodge">
+        <item>Select Your Model</item>
+        <item>600</item>
+        <item>600 Convertible</item>
+        <item>AD100/AD150 Ramcharger 2WD</item>
+        <item>AW100/AW150 Ramcharger 4WD</item>
+        <item>Aries</item>
+        <item>Aries Wagon</item>
+        <item>Avenger</item>
+        <item>Avenger AWD</item>
+        <item>B150/B250 Van 2WD</item>
+        <item>B150/B250 Wagon 2WD</item>
+        <item>B1500 Van 2WD</item>
+        <item>B1500 Wagon 2WD</item>
+        <item>B1500/B2500 Van 2WD</item>
+        <item>B1500/B2500 Wagon 2WD</item>
+        <item>B2500 Van 2WD</item>
+        <item>B2500 Wagon 2WD</item>
+        <item>B350 Van 2WD</item>
+        <item>B350 Wagon 2WD</item>
+        <item>B3500 Van 2WD</item>
+        <item>B3500 Wagon 2WD</item>
+        <item>CSX</item>
+        <item>Caliber</item>
+        <item>Caliber AWD</item>
+        <item>Caravan C/V/Grand Caravan 2WD</item>
+        <item>Caravan C/V/Grand Caravan 4WD</item>
+        <item>Caravan/Grand Caravan 2WD</item>
+        <item>Caravan/Grand Caravan 4WD</item>
+        <item>Caravan/Grand Caravan AWD</item>
+        <item>Caravan/Grand Caravan FWD</item>
+        <item>Caravan/Grand Caravan/Ram Van 2WD</item>
+        <item>Caravan/Ram Van 2WD</item>
+        <item>Challenger</item>
+        <item>Challenger AWD</item>
+        <item>Challenger GT</item>
+        <item>Challenger SRT</item>
+        <item>Challenger SRT Widebody</item>
+        <item>Challenger SRT8</item>
+        <item>Challenger Widebody</item>
+        <item>Charger</item>
+        <item>Charger AWD</item>
+        <item>Charger GLH-S</item>
+        <item>Charger SRT</item>
+        <item>Charger SRT Widebody</item>
+        <item>Charger SRT8</item>
+        <item>Charger Widebody</item>
+        <item>Colt</item>
+        <item>Colt Vista</item>
+        <item>Colt Vista 4WD</item>
+        <item>Colt Wagon</item>
+        <item>Colt Wagon 4WD</item>
+        <item>Conquest</item>
+        <item>D100/D150 Pickup 2WD</item>
+        <item>D250 Cab Chassis 2WD</item>
+        <item>D250 Pickup 2WD</item>
+        <item>D250 Pickup Cab Chassis 2WD</item>
+        <item>Dakota Cab Chassis 2WD</item>
+        <item>Dakota Pickup 2WD</item>
+        <item>Dakota Pickup 4WD</item>
+        <item>Dart</item>
+        <item>Dart Aero</item>
+        <item>Dart GT</item>
+        <item>Daytona</item>
+        <item>Diplomat</item>
+        <item>Durango 2WD</item>
+        <item>Durango 4WD</item>
+        <item>Durango AWD</item>
+        <item>Durango HEV</item>
+        <item>Durango RWD</item>
+        <item>Durango SRT AWD</item>
+        <item>Dynasty</item>
+        <item>GLH-S</item>
+        <item>Grand Caravan</item>
+        <item>Intrepid</item>
+        <item>Journey</item>
+        <item>Journey  2WD</item>
+        <item>Journey  4WD</item>
+        <item>Journey  AWD</item>
+        <item>Journey AWD</item>
+        <item>Journey FWD</item>
+        <item>Lancer</item>
+        <item>Lancer Convertible</item>
+        <item>Magnum</item>
+        <item>Magnum 2WD</item>
+        <item>Magnum AWD</item>
+        <item>Monaco</item>
+        <item>Neon</item>
+        <item>Neon/SRT-4/SX 2.0</item>
+        <item>Nitro 2WD</item>
+        <item>Nitro 4WD</item>
+        <item>Omni</item>
+        <item>Power Ram 50 4WD</item>
+        <item>Power Ram 50 Pickup 4WD</item>
+        <item>Power Ram50 4WD</item>
+        <item>Raider</item>
+        <item>Raider 4WD</item>
+        <item>Ram 1500 Pickup 2WD</item>
+        <item>Ram 1500 Pickup 4WD</item>
+        <item>Ram 2500 Pickup 2WD</item>
+        <item>Ram 2500 Pickup 4WD</item>
+        <item>Ram 50 Pickup 2WD</item>
+        <item>Ram Van 1500 2WD</item>
+        <item>Ram Van 2500 2WD</item>
+        <item>Ram Van 2500 2WD CNG</item>
+        <item>Ram Wagon 1500 2WD</item>
+        <item>Ram Wagon 2500 2WD</item>
+        <item>Ram Wagon 2500 2WD CNG</item>
+        <item>Ramcharger 2WD</item>
+        <item>Ramcharger 4WD</item>
+        <item>Rampage Pickup 2WD</item>
+        <item>Shadow</item>
+        <item>Shadow Convertible</item>
+        <item>Spirit</item>
+        <item>Stealth</item>
+        <item>Stratus</item>
+        <item>Stratus 4 Door</item>
+        <item>Viper</item>
+        <item>Viper Convertible</item>
+        <item>Viper Coupe</item>
+        <item>Viper SRT</item>
+        <item>W100/W150 Pickup 4WD</item>
+        <item>W250 Pickup 4WD</item>
+    </string-array>
+
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Fiat Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Fiat">
+        <item>Select Your Model</item>
+        <item>124 Spider</item>
+        <item>500</item>
+        <item>500 Abarth</item>
+        <item>500 Cabrio</item>
+        <item>500 L</item>
+        <item>500 X</item>
+        <item>500 X AWD</item>
+        <item>500X AWD</item>
+        <item>500e</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Ford Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Ford">
+        <item>Select Your Model</item>
+        <item>Aerostar Van</item>
+        <item>Aerostar Van AWD</item>
+        <item>Aerostar Wagon</item>
+        <item>Aerostar Wagon AWD</item>
+        <item>Aspire</item>
+        <item>Bronco 4WD</item>
+        <item>Bronco Badlands 4WD</item>
+        <item>Bronco Black Diamond 4WD</item>
+        <item>Bronco II 2WD</item>
+        <item>Bronco II 4WD</item>
+        <item>Bronco Sasquatch 4WD</item>
+        <item>Bronco Sport 4WD</item>
+        <item>C-MAX Energi Plug-In Hybrid</item>
+        <item>C-MAX Energi Plug-in Hybrid</item>
+        <item>C-MAX Hybrid FWD</item>
+        <item>Contour</item>
+        <item>Courier</item>
+        <item>Courier Pickup 2WD</item>
+        <item>Courier Pickup 4WD</item>
+        <item>Crown Victoria</item>
+        <item>Crown Victoria CNG</item>
+        <item>Crown Victoria FFV</item>
+        <item>Crown Victoria Police</item>
+        <item>E150 Club Wagon</item>
+        <item>E150 Club Wagon 2WD</item>
+        <item>E150 Econoline 2WD</item>
+        <item>E150 Van FFV</item>
+        <item>E150 Wagon FFV</item>
+        <item>E250 CNG</item>
+        <item>E250 Econoline 2WD</item>
+        <item>E250 Econoline 2WD CNG</item>
+        <item>E250 Van FFV</item>
+        <item>E350 Van</item>
+        <item>E350 Van FFV</item>
+        <item>E350 Wagon</item>
+        <item>E350 Wagon FFV</item>
+        <item>EXP</item>
+        <item>EcoSport AWD</item>
+        <item>EcoSport FWD</item>
+        <item>Edge AWD</item>
+        <item>Edge FWD</item>
+        <item>Escape 2WD</item>
+        <item>Escape 4WD</item>
+        <item>Escape 4WD FFV</item>
+        <item>Escape AWD</item>
+        <item>Escape AWD FFV</item>
+        <item>Escape AWD HEV</item>
+        <item>Escape FWD</item>
+        <item>Escape FWD FFV</item>
+        <item>Escape FWD HEV</item>
+        <item>Escape FWD PHEV</item>
+        <item>Escape Hybrid 2WD</item>
+        <item>Escape Hybrid 4WD</item>
+        <item>Escape Hybrid AWD</item>
+        <item>Escape Hybrid FWD</item>
+        <item>Escort</item>
+        <item>Escort FS</item>
+        <item>Escort Wagon</item>
+        <item>Escort ZX2</item>
+        <item>Expedition 2WD</item>
+        <item>Expedition 2WD FFV</item>
+        <item>Expedition 4WD</item>
+        <item>Expedition 4WD FFV</item>
+        <item>Expedition EL 2WD</item>
+        <item>Expedition EL 4WD</item>
+        <item>Expedition Limo. 2WD FFV</item>
+        <item>Expedition MAX 2WD</item>
+        <item>Expedition MAX 4WD</item>
+        <item>Expedition Timberline AWD</item>
+        <item>Explorer 2WD</item>
+        <item>Explorer 2WD FFV</item>
+        <item>Explorer 4WD</item>
+        <item>Explorer 4WD FFV</item>
+        <item>Explorer AWD</item>
+        <item>Explorer AWD FFV</item>
+        <item>Explorer FFV AWD</item>
+        <item>Explorer FWD</item>
+        <item>Explorer HEV AWD</item>
+        <item>Explorer HEV RWD</item>
+        <item>Explorer Platinum HEV AWD</item>
+        <item>Explorer Platinum HEV RWD</item>
+        <item>Explorer RWD</item>
+        <item>Explorer Sport 2WD</item>
+        <item>Explorer Sport 2WD FFV</item>
+        <item>Explorer Sport 4WD</item>
+        <item>Explorer Sport 4WD FFV</item>
+        <item>Explorer Sport Trac 2WD</item>
+        <item>Explorer Sport Trac 2WD FFV</item>
+        <item>Explorer Sport Trac 4WD</item>
+        <item>Explorer Sport Trac 4WD FFV</item>
+        <item>Explorer Timberline AWD</item>
+        <item>Explorer USPS 2WD</item>
+        <item>Explorer USPS 2WD FFV</item>
+        <item>Explorer USPS 4WD</item>
+        <item>Explorer USPS 4WD FFV</item>
+        <item>Explorer USPS Electric</item>
+        <item>F150 2.7L 2WD GVWR>6649 LBS</item>
+        <item>F150 2.7L 2WD GVWR>6649 LBS PAYLOAD PACKAGE</item>
+        <item>F150 2.7L 4WD GVWR>6799 LBS</item>
+        <item>F150 2.7L 4WD GVWR>6799 LBS PAYLOAD PACKAGE</item>
+        <item>F150 2WD BASE PAYLOAD LT TIRE</item>
+        <item>F150 2WD FFV BASE PAYLOAD LT</item>
+        <item>F150 2WD FFV BASE PAYLOAD LT TIRE</item>
+        <item>F150 3.5L 2WD GVWR>7599 LBS</item>
+        <item>F150 3.5L 2WD GVWR>7599 LBS PAYLOAD PACKAGE</item>
+        <item>F150 3.5L 4WD GVWR>7599 LBS</item>
+        <item>F150 3.5L 4WD GVWR>7599 LBS PAYLOAD PACKAGE</item>
+        <item>F150 4WD BASE PAYLOAD LT TIRE</item>
+        <item>F150 4WD FFV BASE PAYLOAD LT</item>
+        <item>F150 4WD FFV BASE PAYLOAD LT TIRE</item>
+        <item>F150 5.0L 2WD FFV GVWR>7599 LBS</item>
+        <item>F150 5.0L 2WD FFV GVWR>7599 LBS PAYLOAD PACKAGE</item>
+        <item>F150 5.0L 2WD GVWR>7599 LBS</item>
+        <item>F150 5.0L 4WD FFV GVWR>7599 LBS</item>
+        <item>F150 5.0L 4WD FFV GVWR>7599 LBS PAYLOAD PACKAGE</item>
+        <item>F150 5.0L 4WD GVWR>7599 LBS</item>
+        <item>F150 CNG</item>
+        <item>F150 Dual-fuel 2WD (CNG)</item>
+        <item>F150 Dual-fuel 2WD (LPG)</item>
+        <item>F150 Dual-fuel 4WD (CNG)</item>
+        <item>F150 Dual-fuel 4WD (LPG)</item>
+        <item>F150 Pickup 2WD</item>
+        <item>F150 Pickup 2WD CNG</item>
+        <item>F150 Pickup 2WD FFV</item>
+        <item>F150 Pickup 2WD HEV</item>
+        <item>F150 Pickup 2WD Limited</item>
+        <item>F150 Pickup 4WD</item>
+        <item>F150 Pickup 4WD FFV</item>
+        <item>F150 Pickup 4WD HEV</item>
+        <item>F150 Pickup 4WD Limited</item>
+        <item>F150 Pickup 4WD XL/XLT</item>
+        <item>F150 Pickup Tremor 4WD</item>
+        <item>F150 RAPTOR 37 4WD</item>
+        <item>F150 RAPTOR 4WD</item>
+        <item>F150 Raptor Pickup 4WD</item>
+        <item>F150 SFE 2WD</item>
+        <item>F150 STX SE 2WD</item>
+        <item>F150 STX SE 2WD FFV</item>
+        <item>F250</item>
+        <item>F250 Pickup 2WD</item>
+        <item>F250 Pickup 2WD CNG</item>
+        <item>F250 Pickup 4WD</item>
+        <item>F250 Pickup Cab Chassis 2WD</item>
+        <item>Festiva</item>
+        <item>Fiesta</item>
+        <item>Fiesta FWD</item>
+        <item>Fiesta SFE</item>
+        <item>Fiesta SFE FWD</item>
+        <item>Fiesta ST FWD</item>
+        <item>Five Hundred AWD</item>
+        <item>Five Hundred FWD</item>
+        <item>Flex AWD</item>
+        <item>Flex FWD</item>
+        <item>Focus</item>
+        <item>Focus Electric</item>
+        <item>Focus FWD</item>
+        <item>Focus FWD FFV</item>
+        <item>Focus RS AWD</item>
+        <item>Focus SFE FWD</item>
+        <item>Focus SFE FWD FFV</item>
+        <item>Focus ST FWD</item>
+        <item>Focus Station Wagon</item>
+        <item>Freestar Cargo Van FWD</item>
+        <item>Freestar Wagon FWD</item>
+        <item>Freestyle AWD</item>
+        <item>Freestyle FWD</item>
+        <item>Fusion</item>
+        <item>Fusion AWD</item>
+        <item>Fusion AWD FFV</item>
+        <item>Fusion Energi Plug-in Hybrid</item>
+        <item>Fusion FWD</item>
+        <item>Fusion FWD FFV</item>
+        <item>Fusion Hybrid FWD</item>
+        <item>Fusion Hybrid Taxi</item>
+        <item>Fusion S FWD</item>
+        <item>Fusion Special Service PHEV</item>
+        <item>Fusion Special Service Vehicle PHEV</item>
+        <item>GT</item>
+        <item>GT 2WD</item>
+        <item>LTD</item>
+        <item>LTD Crown Victoria</item>
+        <item>LTD Crown Victoria Wagon</item>
+        <item>LTD Crown Victoria/Country Squire Wagon</item>
+        <item>LTD Wagon</item>
+        <item>Laser</item>
+        <item>Lightning F150 2WD</item>
+        <item>Lightning Pickup 2WD</item>
+        <item>MUSTANG MACH-E CAL RT 1 ER AWD</item>
+        <item>MUSTANG MACH-E CAL RT 1 ER RWD</item>
+        <item>Maverick AWD</item>
+        <item>Maverick FWD</item>
+        <item>Maverick HEV FWD</item>
+        <item>Mustang</item>
+        <item>Mustang Bullitt</item>
+        <item>Mustang Convertible</item>
+        <item>Mustang HO Convertible</item>
+        <item>Mustang HO Coupe</item>
+        <item>Mustang Mach 1</item>
+        <item>Mustang Mach-E AWD</item>
+        <item>Mustang Mach-E AWD Extended</item>
+        <item>Mustang Mach-E GT</item>
+        <item>Mustang Mach-E GT Performance</item>
+        <item>Mustang Mach-E RWD</item>
+        <item>Mustang Mach-E RWD California Route 1</item>
+        <item>Mustang Mach-E RWD Extended</item>
+        <item>Mustang Performance Package</item>
+        <item>Postal Vehicle</item>
+        <item>Probe</item>
+        <item>Ranger 2WD</item>
+        <item>Ranger 2WD FFV</item>
+        <item>Ranger 2WD Incomplete</item>
+        <item>Ranger 4WD</item>
+        <item>Ranger 4WD FFV</item>
+        <item>Ranger Pickup 2WD</item>
+        <item>Ranger Pickup 4WD</item>
+        <item>Ranger Pickup Cab Chassis</item>
+        <item>Ranger Pickup Cab Chassis 2WD</item>
+        <item>Ranger Tremor 4WD</item>
+        <item>Shelby GT350 Mustang</item>
+        <item>Shelby GT500 Mustang</item>
+        <item>Taurus</item>
+        <item>Taurus AWD</item>
+        <item>Taurus AWD FFV</item>
+        <item>Taurus FFV</item>
+        <item>Taurus FWD</item>
+        <item>Taurus FWD FFV</item>
+        <item>Taurus SHO</item>
+        <item>Taurus Wagon</item>
+        <item>Taurus Wagon 3.0 A/C</item>
+        <item>Taurus Wagon FFV</item>
+        <item>Taurus Wagon V6 A/C</item>
+        <item>Taurus X AWD</item>
+        <item>Taurus X FWD</item>
+        <item>Tempo</item>
+        <item>Tempo AWD</item>
+        <item>Tempo FS</item>
+        <item>Th!nk</item>
+        <item>Thunderbird</item>
+        <item>Transit Connect</item>
+        <item>Transit Connect USPS</item>
+        <item>Transit Connect Van</item>
+        <item>Transit Connect Van 2WD</item>
+        <item>Transit Connect Van FFV</item>
+        <item>Transit Connect Van FWD</item>
+        <item>Transit Connect Wagon FFV</item>
+        <item>Transit Connect Wagon FWD</item>
+        <item>Transit Connect Wagon LWB FFV</item>
+        <item>Transit Connect Wagon LWB FWD</item>
+        <item>Transit T150 Wagon</item>
+        <item>Transit T150 Wagon 2WD FFV</item>
+        <item>Transit T150 Wagon 4WD FFV</item>
+        <item>Transit T150 Wagon FFV</item>
+        <item>Windstar FWD Cargo Van</item>
+        <item>Windstar FWD Van</item>
+        <item>Windstar FWD Wagon</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Geo Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Geo">
+        <item>Select Your Model</item>
+        <item>Metro</item>
+        <item>Metro LSI</item>
+        <item>Metro LSI Convertible</item>
+        <item>Metro XFI</item>
+        <item>Prizm</item>
+        <item>Spectrum</item>
+        <item>Storm</item>
+        <item>Tracker 4WD</item>
+        <item>Tracker Convertible 2WD</item>
+        <item>Tracker Convertible 4WD</item>
+        <item>Tracker Convertible 4x4</item>
+        <item>Tracker Hardtop 4WD</item>
+        <item>Tracker Van 2WD</item>
+        <item>Tracker Van 4WD</item>
+        <item>Tracker Van 4x4</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of GMC Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+    
+    <string-array name="array_GMC">
+        <item>Select Your Model</item>
+        <item>Acadia AWD</item>
+        <item>Acadia FWD</item>
+        <item>Acadia Limited AWD</item>
+        <item>Acadia Limited FWD</item>
+        <item>C15 Pickup 2WD</item>
+        <item>C15 Suburban 2WD</item>
+        <item>C25 Pickup 2WD</item>
+        <item>C2500 Sierra 2WD</item>
+        <item>Caballero Pickup 2WD</item>
+        <item>Canyon 2WD</item>
+        <item>Canyon 4WD</item>
+        <item>Canyon Cab Chassis 2WD</item>
+        <item>Canyon Cab Chassis Inc 2WD</item>
+        <item>Canyon Cab Chassis Inc 4WD</item>
+        <item>Canyon Crew Cab 2WD</item>
+        <item>Canyon Crew Cab 4WD</item>
+        <item>EV1</item>
+        <item>Envoy 2WD</item>
+        <item>Envoy 4WD</item>
+        <item>Envoy XL 2WD</item>
+        <item>Envoy XL 4WD</item>
+        <item>Envoy XUV 2WD</item>
+        <item>Envoy XUV 4WD</item>
+        <item>G15/25 Rally 2WD</item>
+        <item>G15/25 Vandura 2WD</item>
+        <item>G35 Rally 2WD</item>
+        <item>G35 Vandura 2WD</item>
+        <item>Jimmy 2WD</item>
+        <item>Jimmy 4WD</item>
+        <item>Jimmy AWD</item>
+        <item>Jimmy Sonoma 2WD</item>
+        <item>Jimmy Sonoma 4WD</item>
+        <item>Jimmy V1500 4WD</item>
+        <item>K15 Jimmy 4WD</item>
+        <item>K15 Pickup 4WD</item>
+        <item>K15 Suburban 4WD</item>
+        <item>K25 Pickup 4WD</item>
+        <item>K2500 Sierra 4WD</item>
+        <item>R15 Pickup 2WD</item>
+        <item>R15 Suburban 2WD</item>
+        <item>R1500 Suburban 2WD</item>
+        <item>R25 Pickup 2WD</item>
+        <item>Rally G15/25 2WD</item>
+        <item>Rally G15/25 2WD (passenger)</item>
+        <item>Rally G35 2WD</item>
+        <item>S15 Cab Chassis 2WD</item>
+        <item>S15 Jimmy 2WD</item>
+        <item>S15 Jimmy 4WD</item>
+        <item>S15 Pickup 2WD</item>
+        <item>S15 Pickup 4WD</item>
+        <item>S15 Utility Body 2WD</item>
+        <item>Safari 2WD (Passenger)</item>
+        <item>Safari 2WD (cargo)</item>
+        <item>Safari 2WD (passenger)</item>
+        <item>Safari 2WD Conversion (cargo)</item>
+        <item>Safari AWD (Passenger)</item>
+        <item>Safari AWD (cargo)</item>
+        <item>Safari AWD (passenger)</item>
+        <item>Safari AWD Conversion (cargo)</item>
+        <item>Savana (cargo) (Bi-fuel)</item>
+        <item>Savana 15/25 2WD Conversion (cargo)</item>
+        <item>Savana 15/25 AWD Conversion (cargo)</item>
+        <item>Savana 1500  2WD Conversion (cargo)</item>
+        <item>Savana 1500  AWD (cargo)</item>
+        <item>Savana 1500  AWD Conversion (cargo)</item>
+        <item>Savana 1500 2WD (Passenger)</item>
+        <item>Savana 1500 2WD (cargo)</item>
+        <item>Savana 1500 2WD Conversion (cargo)</item>
+        <item>Savana 1500 AWD (Passenger)</item>
+        <item>Savana 1500 AWD (cargo)</item>
+        <item>Savana 1500 AWD Conversion (cargo)</item>
+        <item>Savana 1500/2500  2WD (Passenger)</item>
+        <item>Savana 1500/2500 2WD (Passenger)</item>
+        <item>Savana 1500/2500 2WD (cargo)</item>
+        <item>Savana 1500/2500 2WD (passenger)</item>
+        <item>Savana 1500/2500 AWD (cargo)</item>
+        <item>Savana 2500 2WD (Passenger)</item>
+        <item>Savana 2500 2WD (cargo)</item>
+        <item>Savana 2500 2WD Conversion (cargo)</item>
+        <item>Savana 3500 2WD (Passenger)</item>
+        <item>Savana 3500 2WD (cargo)</item>
+        <item>Savana Cargo (dedicated CNG)</item>
+        <item>Savana Passenger (Bi-fuel)</item>
+        <item>Savana Passenger (dedicated CNG)</item>
+        <item>Sierra 15 Hybrid 2WD</item>
+        <item>Sierra 15 Hybrid 4WD</item>
+        <item>Sierra 1500 2WD</item>
+        <item>Sierra 1500 4WD</item>
+        <item>Sierra 1500 AWD</item>
+        <item>Sierra 2500 2WD</item>
+        <item>Sierra 2500 4WD</item>
+        <item>Sierra 2500 HD 2WD CNG</item>
+        <item>Sierra 2500 HD 4WD CNG</item>
+        <item>Sierra 2500 Hd 2WD</item>
+        <item>Sierra 2WD</item>
+        <item>Sierra 4WD</item>
+        <item>Sierra 4WD AT4</item>
+        <item>Sierra C10 2WD</item>
+        <item>Sierra C10 Cab Chassis 2WD</item>
+        <item>Sierra C10 XFE 2WD</item>
+        <item>Sierra C15 2WD</item>
+        <item>Sierra C15 Cab Chassis 2WD</item>
+        <item>Sierra C15 XFE 2WD</item>
+        <item>Sierra Cab Chassis 2WD</item>
+        <item>Sierra Cab Chassis 4WD</item>
+        <item>Sierra Classic 15 Hybrid 2WD</item>
+        <item>Sierra Classic 15 Hybrid 4WD</item>
+        <item>Sierra Classic 1500 2WD</item>
+        <item>Sierra Classic 1500 4WD</item>
+        <item>Sierra Classic 1500 AWD</item>
+        <item>Sierra Denali 1500 AWD</item>
+        <item>Sierra K10 4WD</item>
+        <item>Sierra K10 4WD AT4</item>
+        <item>Sierra K10 Cab Chassis 4WD</item>
+        <item>Sierra K15 4WD</item>
+        <item>Sierra K15 AWD</item>
+        <item>Sierra K15 Cab Chassis 4WD</item>
+        <item>Sierra LTD C15 2WD</item>
+        <item>Sierra LTD K15 4WD</item>
+        <item>Sierra Mud Terrain Tires 4WD</item>
+        <item>Sonoma 2WD</item>
+        <item>Sonoma 2WD (FFV)</item>
+        <item>Sonoma 4WD</item>
+        <item>Suburban 1500 2WD</item>
+        <item>Suburban 1500 4WD</item>
+        <item>Suburban V1500 4WD</item>
+        <item>T15 (S15) Jimmy 4WD</item>
+        <item>T15 (S15) Pickup 4WD</item>
+        <item>Terrain AWD</item>
+        <item>Terrain FWD</item>
+        <item>V15 Jimmy 4WD</item>
+        <item>V15 Pickup 4WD</item>
+        <item>V15 Suburban 4WD</item>
+        <item>V25 Pickup 4WD</item>
+        <item>Vandura 2500 2WD</item>
+        <item>Vandura G15/25 2WD</item>
+        <item>Vandura G15/25 2WD (cargo)</item>
+        <item>Vandura G35  2WD</item>
+        <item>Vandura G35 2WD</item>
+        <item>Vandura G35 2WD (cargo)</item>
+        <item>Yukon 1500 2WD</item>
+        <item>Yukon 1500 4WD</item>
+        <item>Yukon 1500 AWD</item>
+        <item>Yukon 1500 Hybrid 2WD</item>
+        <item>Yukon 1500 Hybrid 4WD</item>
+        <item>Yukon 1500 XFE 2WD</item>
+        <item>Yukon 2WD</item>
+        <item>Yukon 4WD</item>
+        <item>Yukon C10 2WD</item>
+        <item>Yukon C1500 2WD</item>
+        <item>Yukon C1500 XL 2WD</item>
+        <item>Yukon Denali 1500 AWD</item>
+        <item>Yukon Denali 1500 Hybrid 4WD</item>
+        <item>Yukon Denali K10 AWD</item>
+        <item>Yukon Denali XL 1500 AWD</item>
+        <item>Yukon K10 4WD</item>
+        <item>Yukon K1500 4WD</item>
+        <item>Yukon K1500 XL 4WD</item>
+        <item>Yukon XL 1500 2WD</item>
+        <item>Yukon XL 1500 4WD</item>
+        <item>Yukon XL 1500 AWD</item>
+        <item>Yukon XL 2500 2WD</item>
+        <item>Yukon XL 2500 4WD</item>
+        <item>Yukon XL 2WD</item>
+        <item>Yukon XL 4WD</item>
+        <item>Yukon XL C10 2WD</item>
+        <item>Yukon XL K10 4WD</item>
+        <item>Yukon XL K10 AWD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Honda Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Honda">
+        <item>Select Your Model</item>
+        <item>Accord</item>
+        <item>Accord 2.0T Sport/Touring</item>
+        <item>Accord Coupe</item>
+        <item>Accord Crosstour 2WD</item>
+        <item>Accord Crosstour 4WD</item>
+        <item>Accord Hybrid</item>
+        <item>Accord Hybrid Sport/Touring</item>
+        <item>Accord Plug-in Hybrid</item>
+        <item>Accord Sport/Touring</item>
+        <item>Accord Wagon</item>
+        <item>CR-V 2WD</item>
+        <item>CR-V 4WD</item>
+        <item>CR-V AWD</item>
+        <item>CR-V FWD</item>
+        <item>CR-V Hybrid AWD</item>
+        <item>CR-Z</item>
+        <item>Civic</item>
+        <item>Civic 2Dr</item>
+        <item>Civic 4Dr</item>
+        <item>Civic 5Dr</item>
+        <item>Civic 5Dr - Type R</item>
+        <item>Civic 5Dr Sport</item>
+        <item>Civic CNG</item>
+        <item>Civic CRX</item>
+        <item>Civic CRX HF</item>
+        <item>Civic Del Sol</item>
+        <item>Civic HB VX</item>
+        <item>Civic HF</item>
+        <item>Civic HX</item>
+        <item>Civic Hybrid</item>
+        <item>Civic Natural Gas</item>
+        <item>Civic Si 2Dr</item>
+        <item>Civic Si 4Dr</item>
+        <item>Civic Wagon</item>
+        <item>Civic Wagon 4WD</item>
+        <item>Clarity EV</item>
+        <item>Clarity Plug-in Hybrid</item>
+        <item>Crosstour 2WD</item>
+        <item>Crosstour 4WD</item>
+        <item>Del Sol</item>
+        <item>EV Plus</item>
+        <item>Element 2WD</item>
+        <item>Element 4WD</item>
+        <item>Fit</item>
+        <item>Fit EV</item>
+        <item>HR-V 2WD</item>
+        <item>HR-V 4WD</item>
+        <item>HR-V AWD</item>
+        <item>HR-V FWD</item>
+        <item>Insight</item>
+        <item>Insight Touring</item>
+        <item>Odyssey</item>
+        <item>Passport 2WD</item>
+        <item>Passport 4WD</item>
+        <item>Passport AWD</item>
+        <item>Passport FWD</item>
+        <item>Pilot 2WD</item>
+        <item>Pilot 4WD</item>
+        <item>Pilot AWD</item>
+        <item>Pilot AWD TrailSport</item>
+        <item>Pilot FWD</item>
+        <item>Prelude</item>
+        <item>Ridgeline AWD</item>
+        <item>Ridgeline FWD</item>
+        <item>Ridgeline Truck 4WD</item>
+        <item>S2000</item>
+    </string-array>
+
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Hyundai Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Hyundai">
+        <item>Select Your Model</item>
+        <item>Accent</item>
+        <item>Accent (SOHC)</item>
+        <item>Accent (Sporty)</item>
+        <item>Accent Blue</item>
+        <item>Accent/Brio</item>
+        <item>Azera</item>
+        <item>Azera Limited</item>
+        <item>Elantra</item>
+        <item>Elantra Blue</item>
+        <item>Elantra Coupe</item>
+        <item>Elantra GT</item>
+        <item>Elantra Hatchback</item>
+        <item>Elantra Hybrid</item>
+        <item>Elantra Hybrid Blue</item>
+        <item>Elantra Limited</item>
+        <item>Elantra N</item>
+        <item>Elantra SE</item>
+        <item>Elantra Touring</item>
+        <item>Elantra Wagon</item>
+        <item>Entourage</item>
+        <item>Equus</item>
+        <item>Excel</item>
+        <item>Genesis</item>
+        <item>Genesis AWD</item>
+        <item>Genesis Coupe</item>
+        <item>Genesis R Spec</item>
+        <item>Genesis R-Spec</item>
+        <item>Genesis RWD</item>
+        <item>Ioniq</item>
+        <item>Ioniq 5 AWD (Long Range)</item>
+        <item>Ioniq 5 RWD (Long Range)</item>
+        <item>Ioniq 5 RWD (Standard Range)</item>
+        <item>Ioniq Blue</item>
+        <item>Ioniq Electric</item>
+        <item>Ioniq Plug-in Hybrid</item>
+        <item>J-Car/Elantra</item>
+        <item>Kona AWD</item>
+        <item>Kona Electric</item>
+        <item>Kona FWD</item>
+        <item>Kona N</item>
+        <item>Palisade AWD</item>
+        <item>Palisade FWD</item>
+        <item>Pony Excel</item>
+        <item>Precis</item>
+        <item>Santa Cruz AWD</item>
+        <item>Santa Cruz FWD</item>
+        <item>Santa Fe 2WD</item>
+        <item>Santa Fe 4WD</item>
+        <item>Santa Fe AWD</item>
+        <item>Santa Fe FWD</item>
+        <item>Santa Fe Hybrid</item>
+        <item>Santa Fe Hybrid Blue</item>
+        <item>Santa Fe Plug-in Hybrid</item>
+        <item>Santa Fe Sport 2WD</item>
+        <item>Santa Fe Sport 4WD</item>
+        <item>Santa Fe Sport AWD</item>
+        <item>Santa Fe Sport FWD</item>
+        <item>Santa Fe Sport Ultimate AWD</item>
+        <item>Santa Fe Sport Ultimate FWD</item>
+        <item>Santa Fe Ultimate 2WD</item>
+        <item>Santa Fe Ultimate 4WD</item>
+        <item>Santa Fe Ultimate AWD</item>
+        <item>Santa Fe Ultimate FWD</item>
+        <item>Santa Fe XL AWD</item>
+        <item>Santa Fe XL FWD</item>
+        <item>Santa Fe XL Ultimate AWD</item>
+        <item>Santa Fe XL Ultimate FWD</item>
+        <item>Scoupe</item>
+        <item>Sonata</item>
+        <item>Sonata (Y-3)</item>
+        <item>Sonata Hybrid</item>
+        <item>Sonata Hybrid Blue</item>
+        <item>Sonata Hybrid Limited</item>
+        <item>Sonata Hybrid SE</item>
+        <item>Sonata Limited</item>
+        <item>Sonata Plug-in Hybrid</item>
+        <item>Sonata SE</item>
+        <item>Sonata Sport Limited</item>
+        <item>Tiburon</item>
+        <item>Tiburon (Coupe)</item>
+        <item>Tucson 2WD</item>
+        <item>Tucson 4WD</item>
+        <item>Tucson AWD</item>
+        <item>Tucson Eco AWD</item>
+        <item>Tucson Eco FWD</item>
+        <item>Tucson FWD</item>
+        <item>Tucson Hybrid</item>
+        <item>Tucson Hybrid Blue</item>
+        <item>Tucson Plug-in Hybrid</item>
+        <item>Veloster</item>
+        <item>Veloster N</item>
+        <item>Venue</item>
+        <item>Veracruz 2WD</item>
+        <item>Veracruz 4WD</item>
+        <item>XG300</item>
+        <item>XG350</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Jaguar Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Jaguar">
+        <item>Select Your Model</item>
+        <item>E-Pace</item>
+        <item>E-Pace (296 Hp)</item>
+        <item>E-Pace MHEV</item>
+        <item>E-Pace P250</item>
+        <item>E-Pace P300</item>
+        <item>F-Pace</item>
+        <item>F-Pace (296 Hp)</item>
+        <item>F-Pace 30t</item>
+        <item>F-Pace P340 MHEV</item>
+        <item>F-Pace P400 MHEV</item>
+        <item>F-Pace SVR</item>
+        <item>F-Type AWD Convertible</item>
+        <item>F-Type AWD Coupe</item>
+        <item>F-Type Convertible</item>
+        <item>F-Type Coupe</item>
+        <item>F-Type P450 AWD R-Dynamic Convertible</item>
+        <item>F-Type P450 AWD R-Dynamic Coupe</item>
+        <item>F-Type P450 RWD Convertible</item>
+        <item>F-Type P450 RWD Coupe</item>
+        <item>F-Type R AWD Convertible</item>
+        <item>F-Type R AWD Coupe</item>
+        <item>F-Type R Convertible</item>
+        <item>F-Type R Coupe</item>
+        <item>F-Type S AWD Convertible</item>
+        <item>F-Type S AWD Coupe</item>
+        <item>F-Type S Convertible</item>
+        <item>F-Type S Coupe</item>
+        <item>F-Type SVR AWD Convertible</item>
+        <item>F-Type SVR AWD Convertible GEN2</item>
+        <item>F-Type SVR AWD Coupe</item>
+        <item>F-Type SVR AWD Coupe GEN2</item>
+        <item>F-Type V8 S Convertible</item>
+        <item>I-Pace</item>
+        <item>I-Pace EV400</item>
+        <item>S-Type</item>
+        <item>S-Type 3.0 Litre</item>
+        <item>S-Type 4.2 Litre</item>
+        <item>S-Type R</item>
+        <item>S-type (X200) V6</item>
+        <item>S-type (X200) V8</item>
+        <item>Super V8</item>
+        <item>Vanden Plas</item>
+        <item>Vanden Plas S.C.</item>
+        <item>Vanden Plas S/C</item>
+        <item>Vdp</item>
+        <item>Vdp 4.2 Litre</item>
+        <item>Vdp Lwb</item>
+        <item>X-Type</item>
+        <item>X-Type Sport Brake</item>
+        <item>XE</item>
+        <item>XE (296 Hp)</item>
+        <item>XE 30t</item>
+        <item>XE AWD</item>
+        <item>XE AWD (296 Hp)</item>
+        <item>XE AWD 30t</item>
+        <item>XE P250</item>
+        <item>XE P250 AWD</item>
+        <item>XE P300 AWD</item>
+        <item>XF</item>
+        <item>XF (296 Hp)</item>
+        <item>XF 30t</item>
+        <item>XF AWD</item>
+        <item>XF AWD (296 Hp)</item>
+        <item>XF AWD 30t</item>
+        <item>XF FFV</item>
+        <item>XF P250</item>
+        <item>XF P250 AWD</item>
+        <item>XF P300 AWD</item>
+        <item>XF Sportbrake AWD</item>
+        <item>XF Supercharged</item>
+        <item>XJ</item>
+        <item>XJ AWD</item>
+        <item>XJ FFV</item>
+        <item>XJ LWB</item>
+        <item>XJ LWB AWD</item>
+        <item>XJ Sport</item>
+        <item>XJ-S</item>
+        <item>XJ-SC</item>
+        <item>XJ12</item>
+        <item>XJ6</item>
+        <item>XJ6L</item>
+        <item>XJ8</item>
+        <item>XJ8 4.2 Litre</item>
+        <item>XJ8L</item>
+        <item>XJ8l</item>
+        <item>XJL</item>
+        <item>XJL AWD</item>
+        <item>XJL FFV</item>
+        <item>XJR</item>
+        <item>XJR 4.2 Litre</item>
+        <item>XJRS Convertble</item>
+        <item>XJRS Coupe</item>
+        <item>XJS</item>
+        <item>XJS Convertible</item>
+        <item>XJS Coupe</item>
+        <item>XJS V12 Convertible</item>
+        <item>XJS V12 Coupe</item>
+        <item>XK</item>
+        <item>XK Convertible</item>
+        <item>XK8</item>
+        <item>XK8 Convertible</item>
+        <item>XKR</item>
+        <item>XKR Convertible</item>
+    </string-array>
+    
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Jeep Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+    
+    <string-array name="array_Jeep">
+        <item>Select Your Model</item>
+        <item>CJ7</item>
+        <item>CJ7 4WD</item>
+        <item>CJ8 4WD</item>
+        <item>Cherokee 2WD</item>
+        <item>Cherokee 4WD</item>
+        <item>Cherokee 4WD Active Drive II</item>
+        <item>Cherokee FWD</item>
+        <item>Cherokee Trailhawk 4WD</item>
+        <item>Cherokee/Wagoneer</item>
+        <item>Cherokee/Wagoneer 2WD</item>
+        <item>Cherokee/Wagoneer 4WD</item>
+        <item>Comanche 2WD</item>
+        <item>Comanche 4WD</item>
+        <item>Comanche Pickup 2WD</item>
+        <item>Comanche Pickup 4WD</item>
+        <item>Commander 2WD</item>
+        <item>Commander 4WD</item>
+        <item>Compass 2WD</item>
+        <item>Compass 4WD</item>
+        <item>Compass FWD</item>
+        <item>Gladiator 4WD</item>
+        <item>Gladiator EcoDiesel 4WD</item>
+        <item>Gladiator Pickup 4WD</item>
+        <item>Gladiator Rubic EcoDiesel 4WD</item>
+        <item>Gladiator Rubicon EcoDiesel 4WD</item>
+        <item>Grand Cherokee 2WD</item>
+        <item>Grand Cherokee 4WD</item>
+        <item>Grand Cherokee 4xe</item>
+        <item>Grand Cherokee L 2WD</item>
+        <item>Grand Cherokee L 4WD</item>
+        <item>Grand Cherokee SRT 4WD</item>
+        <item>Grand Cherokee SRT8</item>
+        <item>Grand Cherokee SRT8 4WD</item>
+        <item>Grand Cherokee SRT8 AWD</item>
+        <item>Grand Cherokee TrackHawk 4WD</item>
+        <item>Grand Cherokee Trackhawk 4WD</item>
+        <item>Grand Cherokee WK 2WD</item>
+        <item>Grand Cherokee WK 4WD</item>
+        <item>Grand Wagoneer</item>
+        <item>Grand Wagoneer 2WD</item>
+        <item>Grand Wagoneer 4WD</item>
+        <item>J-10 Pickup 4WD</item>
+        <item>J-10 Pickup Truck</item>
+        <item>J-10 Pickup Truck 4WD</item>
+        <item>J-20 Pickup Truck</item>
+        <item>J-20 Pickup Truck 4WD</item>
+        <item>Liberty 2WD</item>
+        <item>Liberty 4WD</item>
+        <item>Liberty/Cherokee 2WD</item>
+        <item>Liberty/Cherokee 4WD</item>
+        <item>New Compass 2WD</item>
+        <item>New Compass 4WD</item>
+        <item>New Wrangler 4WD</item>
+        <item>New Wrangler Unlimited 4WD</item>
+        <item>Patriot 2WD</item>
+        <item>Patriot 4WD</item>
+        <item>Patriot FWD</item>
+        <item>Renegade 2WD</item>
+        <item>Renegade 4WD</item>
+        <item>Renegade Trailhawk 4WD</item>
+        <item>Scrambler</item>
+        <item>Scrambler Pickup 4WD</item>
+        <item>Wagoneer 2WD</item>
+        <item>Wagoneer 4WD</item>
+        <item>Wagoneer Limited 4WD</item>
+        <item>Wrangler 2WD</item>
+        <item>Wrangler 2dr 4WD</item>
+        <item>Wrangler 4WD</item>
+        <item>Wrangler 4dr 4WD</item>
+        <item>Wrangler 4dr 4xe</item>
+        <item>Wrangler 4dr EcoDiesel 4WD</item>
+        <item>Wrangler Rubic 4dr EcoDiesel 4WD</item>
+        <item>Wrangler Unlimited 4WD</item>
+        <item>Wrangler/TJ 4WD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Kia Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+    
+    <string-array name="array_Kia">
+        <item>Select Your Model</item>
+        <item>Amanti</item>
+        <item>Borrego 2WD</item>
+        <item>Borrego 4WD</item>
+        <item>Cadenza</item>
+        <item>Carnival</item>
+        <item>EV6 AWD (Long Range)</item>
+        <item>EV6 RWD (Long Range)</item>
+        <item>EV6 RWD (Standard Range)</item>
+        <item>Forte</item>
+        <item>Forte 5</item>
+        <item>Forte Eco</item>
+        <item>Forte FE</item>
+        <item>Forte Koup</item>
+        <item>K5</item>
+        <item>K5 AWD</item>
+        <item>K900</item>
+        <item>Niro</item>
+        <item>Niro Electric</item>
+        <item>Niro FE</item>
+        <item>Niro Plug-in Hybrid</item>
+        <item>Niro Touring</item>
+        <item>Optima</item>
+        <item>Optima (2006 New Model)</item>
+        <item>Optima FE</item>
+        <item>Optima Hybrid</item>
+        <item>Optima Hybrid EX</item>
+        <item>Optima Plug-in Hybrid</item>
+        <item>Optima S</item>
+        <item>Rio</item>
+        <item>Rio Eco</item>
+        <item>Rondo</item>
+        <item>Sedona</item>
+        <item>Sedona SX</item>
+        <item>Sedona SXL</item>
+        <item>Seltos AWD</item>
+        <item>Seltos FWD</item>
+        <item>Sephia</item>
+        <item>Sephia/Spectra</item>
+        <item>Sorento 2WD</item>
+        <item>Sorento 4WD</item>
+        <item>Sorento AWD</item>
+        <item>Sorento FE AWD</item>
+        <item>Sorento FWD</item>
+        <item>Sorento Hybrid</item>
+        <item>Sorento Hybrid AWD</item>
+        <item>Sorento Hybrid FWD</item>
+        <item>Sorento Plug-in Hybrid</item>
+        <item>Soul</item>
+        <item>Soul ECO dynamics</item>
+        <item>Soul Eco</item>
+        <item>Soul Eco dynamics</item>
+        <item>Soul Electric</item>
+        <item>Spectra</item>
+        <item>Spectra 1.8L</item>
+        <item>Spectra 2.0L</item>
+        <item>Sportage 2WD</item>
+        <item>Sportage 4WD</item>
+        <item>Sportage AWD</item>
+        <item>Sportage FE AWD</item>
+        <item>Sportage FE FWD</item>
+        <item>Sportage FWD</item>
+        <item>Sportage Hybrid AWD</item>
+        <item>Sportage Hybrid FWD</item>
+        <item>Sportage SX AWD</item>
+        <item>Sportage SX FWD</item>
+        <item>Stinger AWD</item>
+        <item>Stinger RWD</item>
+        <item>Telluride AWD</item>
+        <item>Telluride FWD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Land Rover Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_LandRover">
+        <item>Select Your Model</item>
+        <item>Defender 110</item>
+        <item>Defender 110 MHEV</item>
+        <item>Defender 90</item>
+        <item>Defender 90 MHEV</item>
+        <item>Discovery</item>
+        <item>Discovery MHEV</item>
+        <item>Discovery Series II</item>
+        <item>Discovery Sport</item>
+        <item>Discovery Sport (286 Hp)</item>
+        <item>Discovery Sport MHEV</item>
+        <item>Discovery Sport Si4</item>
+        <item>Evoque</item>
+        <item>Evoque MHEV</item>
+        <item>Freelander</item>
+        <item>Freelander 3 Door</item>
+        <item>Freelander 5 Door</item>
+        <item>LR2</item>
+        <item>LR3</item>
+        <item>LR4</item>
+        <item>New Range Rover</item>
+        <item>New Range Rover LWB</item>
+        <item>New Range Rover P360 LWB MHEV</item>
+        <item>New Range Rover P360 MHEV</item>
+        <item>New Range Rover P400 LWB MHEV</item>
+        <item>New Range Rover P400 MHEV</item>
+        <item>Range Rover</item>
+        <item>Range Rover 4.0</item>
+        <item>Range Rover 4.6</item>
+        <item>Range Rover County</item>
+        <item>Range Rover County Classic</item>
+        <item>Range Rover County LWB</item>
+        <item>Range Rover Evoque</item>
+        <item>Range Rover Evoque (286 Hp)</item>
+        <item>Range Rover Evoque 237HP</item>
+        <item>Range Rover Evoque 286HP</item>
+        <item>Range Rover Evoque Cabriolet</item>
+        <item>Range Rover Evoque Convertible</item>
+        <item>Range Rover Evoque MHEV</item>
+        <item>Range Rover FFV</item>
+        <item>Range Rover L FFV</item>
+        <item>Range Rover LWB</item>
+        <item>Range Rover LWB SVA</item>
+        <item>Range Rover MHEV</item>
+        <item>Range Rover P360 MHEV</item>
+        <item>Range Rover P400 MHEV</item>
+        <item>Range Rover PHEV</item>
+        <item>Range Rover SV Coupe</item>
+        <item>Range Rover SVA</item>
+        <item>Range Rover Sport</item>
+        <item>Range Rover Sport FFV</item>
+        <item>Range Rover Sport MHEV</item>
+        <item>Range Rover Sport P360 MHEV</item>
+        <item>Range Rover Sport P400 MHEV</item>
+        <item>Range Rover Sport PHEV</item>
+        <item>Range Rover Sport SVR</item>
+        <item>Range Rover Sport TDV6</item>
+        <item>Range Rover TDV6</item>
+        <item>Range Rover Velar</item>
+        <item>Range Rover Velar P300</item>
+        <item>Range Rover Velar P340 MHEV</item>
+        <item>Range Rover Velar P380</item>
+        <item>Range Rover Velar P400 MHEV</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Lexus Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+    
+    <string-array name="array_Lexus">
+        <item>Select Your Model</item>
+        <item>CT 200h</item>
+        <item>ES 250</item>
+        <item>ES 250 AWD</item>
+        <item>ES 300</item>
+        <item>ES 300h</item>
+        <item>ES 330</item>
+        <item>ES 350</item>
+        <item>ES 350 F Sport</item>
+        <item>GS 200t</item>
+        <item>GS 200t F Sport</item>
+        <item>GS 300</item>
+        <item>GS 300 4WD</item>
+        <item>GS 300 F Sport</item>
+        <item>GS 300/GS 400</item>
+        <item>GS 300/GS 430</item>
+        <item>GS 350</item>
+        <item>GS 350 AWD</item>
+        <item>GS 350 F Sport</item>
+        <item>GS 430</item>
+        <item>GS 450h</item>
+        <item>GS 460</item>
+        <item>GS F</item>
+        <item>GS300</item>
+        <item>GX 460</item>
+        <item>GX 470</item>
+        <item>HS 250h</item>
+        <item>IS 200t</item>
+        <item>IS 250</item>
+        <item>IS 250 AWD</item>
+        <item>IS 250 C</item>
+        <item>IS 250/IS 250C</item>
+        <item>IS 300</item>
+        <item>IS 300 AWD</item>
+        <item>IS 350</item>
+        <item>IS 350 AWD</item>
+        <item>IS 350 C</item>
+        <item>IS 350/IS 350C</item>
+        <item>IS 500</item>
+        <item>IS F</item>
+        <item>LC 500</item>
+        <item>LC 500 Convertible</item>
+        <item>LC 500h</item>
+        <item>LFA</item>
+        <item>LS 400</item>
+        <item>LS 430</item>
+        <item>LS 460</item>
+        <item>LS 460 AWD</item>
+        <item>LS 460 L</item>
+        <item>LS 460 L AWD</item>
+        <item>LS 500</item>
+        <item>LS 500 AWD</item>
+        <item>LS 500h</item>
+        <item>LS 500h AWD</item>
+        <item>LS 600h L</item>
+        <item>LX 450</item>
+        <item>LX 470</item>
+        <item>LX 570</item>
+        <item>LX 600</item>
+        <item>NX 200t</item>
+        <item>NX 200t AWD</item>
+        <item>NX 200t AWD F Sport</item>
+        <item>NX 250</item>
+        <item>NX 250 AWD</item>
+        <item>NX 300</item>
+        <item>NX 300 AWD</item>
+        <item>NX 300 AWD F Sport</item>
+        <item>NX 300h</item>
+        <item>NX 300h AWD</item>
+        <item>NX 350 AWD</item>
+        <item>NX 350h AWD</item>
+        <item>NX 450h Plus AWD</item>
+        <item>RC 200t</item>
+        <item>RC 300</item>
+        <item>RC 300 AWD</item>
+        <item>RC 350</item>
+        <item>RC 350 AWD</item>
+        <item>RC F</item>
+        <item>RX 300</item>
+        <item>RX 300 4WD</item>
+        <item>RX 330 2WD</item>
+        <item>RX 330 4WD</item>
+        <item>RX 350</item>
+        <item>RX 350 2WD</item>
+        <item>RX 350 4WD</item>
+        <item>RX 350 AWD</item>
+        <item>RX 350 L</item>
+        <item>RX 350 L AWD</item>
+        <item>RX 400h 2WD</item>
+        <item>RX 400h 4WD</item>
+        <item>RX 450h</item>
+        <item>RX 450h AWD</item>
+        <item>RX 450h L AWD</item>
+        <item>SC</item>
+        <item>SC 300/SC 400</item>
+        <item>SC 300/SC 430</item>
+        <item>SC 430</item>
+        <item>UX 200</item>
+        <item>UX 250h</item>
+        <item>UX 250h AWD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Lincoln Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Lincoln">
+        <item>Select Your Model</item>
+        <item>Aviator 2WD</item>
+        <item>Aviator 4WD</item>
+        <item>Aviator AWD</item>
+        <item>Aviator PHEV AWD</item>
+        <item>Aviator RWD</item>
+        <item>Blackwood 2WD</item>
+        <item>Continental</item>
+        <item>Continental  AWD</item>
+        <item>Continental  FWD</item>
+        <item>Continental Coach</item>
+        <item>Corsair AWD</item>
+        <item>Corsair AWD PHEV</item>
+        <item>Corsair FWD</item>
+        <item>LS</item>
+        <item>MKC AWD</item>
+        <item>MKC FWD</item>
+        <item>MKS AWD</item>
+        <item>MKS FWD</item>
+        <item>MKT AWD</item>
+        <item>MKT FWD</item>
+        <item>MKT Hearse AWD</item>
+        <item>MKT Limo AWD</item>
+        <item>MKT Livery AWD</item>
+        <item>MKT Livery FWD</item>
+        <item>MKX AWD</item>
+        <item>MKX FWD</item>
+        <item>MKZ AWD</item>
+        <item>MKZ FWD</item>
+        <item>MKZ Hybrid FWD</item>
+        <item>Mark LT</item>
+        <item>Mark LT 4WD</item>
+        <item>Mark VII</item>
+        <item>Mark VIII</item>
+        <item>Nautilus AWD</item>
+        <item>Nautilus FWD</item>
+        <item>Navigator 2WD</item>
+        <item>Navigator 2WD FFV</item>
+        <item>Navigator 4WD</item>
+        <item>Navigator 4WD FFV</item>
+        <item>Navigator L 2WD</item>
+        <item>Navigator L 4WD</item>
+        <item>Navigator Limo. 2WD FFV</item>
+        <item>Town Car</item>
+        <item>Town Car FFV</item>
+        <item>Zephyr</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Mazda Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Mazda">
+        <item>Select Your Model</item>
+        <item>2</item>
+        <item>2500 2WD</item>
+        <item>3</item>
+        <item>3 4-Door</item>
+        <item>3 4-Door 2WD</item>
+        <item>3 4-Door 4WD</item>
+        <item>3 5-Door</item>
+        <item>3 5-Door 2WD</item>
+        <item>3 5-Door 4WD</item>
+        <item>3 DI 4-Door</item>
+        <item>3 DI 5-Door</item>
+        <item>323</item>
+        <item>323 Protege 4x4</item>
+        <item>323 Wagon</item>
+        <item>323/323 Protege</item>
+        <item>5</item>
+        <item>6</item>
+        <item>6 Sport Wagon</item>
+        <item>626</item>
+        <item>626/MX-6</item>
+        <item>929</item>
+        <item>B2000</item>
+        <item>B2000/B2200 Pickup 2WD</item>
+        <item>B2000/B2200/B2600</item>
+        <item>B2200/B2600</item>
+        <item>B2200/B2600i</item>
+        <item>B2300 2WD</item>
+        <item>B2300/B3000/B4000 Pickup 2WD</item>
+        <item>B2300/B3000/B4000 Pickup 4WD</item>
+        <item>B2500</item>
+        <item>B2500 2WD</item>
+        <item>B2500/B3000/B4000 2WD</item>
+        <item>B2500/B3000/B4000 4WD</item>
+        <item>B2600 4x4</item>
+        <item>B2600i 4x4</item>
+        <item>B3000</item>
+        <item>B3000 (FFV) Ethanol 2WD</item>
+        <item>B3000 2WD</item>
+        <item>B3000 2WD FFV</item>
+        <item>B3000 4WD</item>
+        <item>B3000 FFV 2WD</item>
+        <item>B3000 FFV 4WD</item>
+        <item>B4000</item>
+        <item>B4000 2WD</item>
+        <item>B4000 4WD</item>
+        <item>CX-3 2WD</item>
+        <item>CX-3 4WD</item>
+        <item>CX-30 2WD</item>
+        <item>CX-30 4WD</item>
+        <item>CX-5 2WD</item>
+        <item>CX-5 4WD</item>
+        <item>CX-50 4WD</item>
+        <item>CX-7 2WD</item>
+        <item>CX-7 4WD</item>
+        <item>CX-9 2WD</item>
+        <item>CX-9 4WD</item>
+        <item>GLC</item>
+        <item>GLC Wagon</item>
+        <item>MPV</item>
+        <item>MPV 4WD</item>
+        <item>MPV 4x4</item>
+        <item>MX-3</item>
+        <item>MX-30</item>
+        <item>MX-5</item>
+        <item>MX-5 Miata</item>
+        <item>MX-6</item>
+        <item>Millenia</item>
+        <item>Navajo</item>
+        <item>Navajo 4x4</item>
+        <item>Protege</item>
+        <item>Protege/Protege 5</item>
+        <item>Protege/Protege MPS</item>
+        <item>RX-7</item>
+        <item>RX-8</item>
+        <item>Speed 3</item>
+        <item>Tribute 2WD</item>
+        <item>Tribute 4WD</item>
+        <item>Tribute 4WD FFV</item>
+        <item>Tribute FWD</item>
+        <item>Tribute FWD FFV</item>
+        <item>Tribute Hybrid 2WD</item>
+        <item>Tribute Hybrid 4WD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Mercedes-Benz Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_MercedesBenz">
+        <item>Select Your Model</item>
+        <item>190</item>
+        <item>190 D 2.2/190 E 2.3</item>
+        <item>190D 2.5</item>
+        <item>190D 2.5 Turbo</item>
+        <item>190E</item>
+        <item>190E 2.3</item>
+        <item>190E 2.3-16</item>
+        <item>190E 2.6</item>
+        <item>200E</item>
+        <item>230CE</item>
+        <item>230E</item>
+        <item>230TE</item>
+        <item>260E</item>
+        <item>300CE</item>
+        <item>300D</item>
+        <item>300D 2.5 Turbo</item>
+        <item>300D/300CD</item>
+        <item>300E</item>
+        <item>300E 2.6</item>
+        <item>300E 2.8</item>
+        <item>300E 4Matic</item>
+        <item>300SD</item>
+        <item>300SD/380SE</item>
+        <item>300SDL</item>
+        <item>300SE</item>
+        <item>300SEL</item>
+        <item>300SL</item>
+        <item>300TD</item>
+        <item>300TE</item>
+        <item>300TE 4Matic</item>
+        <item>350SD Turbo</item>
+        <item>350SDL Turbo</item>
+        <item>380SE</item>
+        <item>380SL</item>
+        <item>400E</item>
+        <item>400SE</item>
+        <item>400SEL</item>
+        <item>420 SE</item>
+        <item>420SE</item>
+        <item>420SEL</item>
+        <item>500E</item>
+        <item>500SE</item>
+        <item>500SEC</item>
+        <item>500SEL</item>
+        <item>500SEL 5.0L</item>
+        <item>500SEL 5.6L</item>
+        <item>500SL</item>
+        <item>560SE</item>
+        <item>560SEC</item>
+        <item>560SEL</item>
+        <item>560SL</item>
+        <item>600SEL</item>
+        <item>600SEL/SEC</item>
+        <item>600SL</item>
+        <item>A220</item>
+        <item>A220 4matic</item>
+        <item>AMG A35 4matic</item>
+        <item>AMG C43 4matic</item>
+        <item>AMG C43 4matic Convertible</item>
+        <item>AMG C43 4matic Coupe</item>
+        <item>AMG C63</item>
+        <item>AMG C63 Convertible</item>
+        <item>AMG C63 Coupe</item>
+        <item>AMG C63 S</item>
+        <item>AMG C63 S Convertible</item>
+        <item>AMG C63 S Coupe</item>
+        <item>AMG CLA35 4matic</item>
+        <item>AMG CLA45 4matic</item>
+        <item>AMG CLS53 4matic Plus</item>
+        <item>AMG CLS63 S 4matic</item>
+        <item>AMG E43 4matic</item>
+        <item>AMG E53 4matic Plus</item>
+        <item>AMG E53 4matic Plus Convertible</item>
+        <item>AMG E53 4matic Plus Coupe</item>
+        <item>AMG E63 4matic</item>
+        <item>AMG E63 S 4matic</item>
+        <item>AMG E63 S 4matic (wagon)</item>
+        <item>AMG E63 S 4matic Plus</item>
+        <item>AMG E63 S 4matic Plus (SW)</item>
+        <item>AMG E63 S 4matic Plus (wagon)</item>
+        <item>AMG G63</item>
+        <item>AMG G65</item>
+        <item>AMG GL63</item>
+        <item>AMG GLA35 4matic</item>
+        <item>AMG GLA45 4matic</item>
+        <item>AMG GLB35 4matic</item>
+        <item>AMG GLC43 4matic</item>
+        <item>AMG GLC43 4matic  Coupe</item>
+        <item>AMG GLC43 4matic Coupe</item>
+        <item>AMG GLC63 4matic</item>
+        <item>AMG GLC63 4matic Coupe</item>
+        <item>AMG GLC63 4matic Plus</item>
+        <item>AMG GLC63 4matic Plus Coupe</item>
+        <item>AMG GLC63 S 4matic Coupe</item>
+        <item>AMG GLC63 S 4matic Plus Coupe</item>
+        <item>AMG GLE43 4matic</item>
+        <item>AMG GLE43 4matic Coupe</item>
+        <item>AMG GLE53 4matic Plus</item>
+        <item>AMG GLE53 4matic Plus Coupe</item>
+        <item>AMG GLE63</item>
+        <item>AMG GLE63 S</item>
+        <item>AMG GLE63 S 4matic Plus</item>
+        <item>AMG GLE63 S 4matic Plus Coupe</item>
+        <item>AMG GLE63 S Coupe</item>
+        <item>AMG GLS63</item>
+        <item>AMG GLS63 4matic Plus</item>
+        <item>AMG GT</item>
+        <item>AMG GT 43 4matic Plus</item>
+        <item>AMG GT 53 4matic Plus</item>
+        <item>AMG GT 63 4matic Plus</item>
+        <item>AMG GT 63 S 4matic Plus</item>
+        <item>AMG GT Black Series</item>
+        <item>AMG GT C Coupe</item>
+        <item>AMG GT C Roadster</item>
+        <item>AMG GT Coupe</item>
+        <item>AMG GT R Coupe</item>
+        <item>AMG GT R Roadster</item>
+        <item>AMG GT Roadster</item>
+        <item>AMG GT S</item>
+        <item>AMG GT S Coupe</item>
+        <item>AMG S63 4matic</item>
+        <item>AMG S63 4matic Convertible</item>
+        <item>AMG S63 4matic Coupe</item>
+        <item>AMG S63 4matic Plus</item>
+        <item>AMG S63 4matic Plus Convertible</item>
+        <item>AMG S63 4matic Plus Coupe</item>
+        <item>AMG S65</item>
+        <item>AMG S65 Convertible</item>
+        <item>AMG S65 Coupe</item>
+        <item>AMG SL63</item>
+        <item>AMG SL65</item>
+        <item>AMG SLC43</item>
+        <item>AMG SLK55</item>
+        <item>B-Class Electric Drive</item>
+        <item>B250e</item>
+        <item>C220</item>
+        <item>C230</item>
+        <item>C230 Kompressor</item>
+        <item>C230 Kompressor Sports Coupe</item>
+        <item>C240</item>
+        <item>C240 (Wagon)</item>
+        <item>C240 4matic</item>
+        <item>C240 4matic (Wagon)</item>
+        <item>C240 FFV</item>
+        <item>C240 FFV (Wagon)</item>
+        <item>C250</item>
+        <item>C250 Coupe</item>
+        <item>C280</item>
+        <item>C280 4matic</item>
+        <item>C300</item>
+        <item>C300 4matic</item>
+        <item>C300 4matic Convertible</item>
+        <item>C300 4matic Coupe</item>
+        <item>C300 Convertible</item>
+        <item>C300 Coupe</item>
+        <item>C32 AMG</item>
+        <item>C320</item>
+        <item>C320 (Wagon)</item>
+        <item>C320 4matic</item>
+        <item>C320 4matic (Wagon)</item>
+        <item>C320 4matic Sedan</item>
+        <item>C320 FFV</item>
+        <item>C320 FFV (Wagon)</item>
+        <item>C320 Sports Coupe</item>
+        <item>C320 Sports Coupe FFV</item>
+        <item>C350</item>
+        <item>C350 4matic</item>
+        <item>C350 4matic Coupe</item>
+        <item>C350 Coupe</item>
+        <item>C350e</item>
+        <item>C36</item>
+        <item>C36 AMG</item>
+        <item>C400 4matic</item>
+        <item>C43</item>
+        <item>C43 AMG</item>
+        <item>C450 AMG</item>
+        <item>C55 AMG</item>
+        <item>C63 AMG</item>
+        <item>C63 AMG Black Series Coupe</item>
+        <item>C63 AMG Coupe</item>
+        <item>CL500</item>
+        <item>CL55 AMG</item>
+        <item>CL550</item>
+        <item>CL550 4matic</item>
+        <item>CL600</item>
+        <item>CL63 AMG</item>
+        <item>CL65 AMG</item>
+        <item>CLA250</item>
+        <item>CLA250 4matic</item>
+        <item>CLA45 AMG 4matic</item>
+        <item>CLK320</item>
+        <item>CLK320 (Cabriolet)</item>
+        <item>CLK320 Cabriolet</item>
+        <item>CLK350</item>
+        <item>CLK350 (Cabriolet)</item>
+        <item>CLK430</item>
+        <item>CLK430 (Cabriolet)</item>
+        <item>CLK500</item>
+        <item>CLK500 (Cabriolet)</item>
+        <item>CLK55 AMG</item>
+        <item>CLK55 AMG (Cabriolet)</item>
+        <item>CLK550</item>
+        <item>CLK550 (Cabriolet)</item>
+        <item>CLK63 AMG</item>
+        <item>CLK63 AMG (Cabriolet)</item>
+        <item>CLS400</item>
+        <item>CLS400 4matic</item>
+        <item>CLS450</item>
+        <item>CLS450 4matic</item>
+        <item>CLS500</item>
+        <item>CLS55 AMG</item>
+        <item>CLS550</item>
+        <item>CLS550 4matic</item>
+        <item>CLS63 AMG</item>
+        <item>CLS63 AMG 4matic</item>
+        <item>CLS63 AMG S</item>
+        <item>CLS63 AMG S 4matic</item>
+        <item>E300</item>
+        <item>E300 4matic</item>
+        <item>E300 Diesel</item>
+        <item>E300 Turbodiesel</item>
+        <item>E320</item>
+        <item>E320 (Wagon)</item>
+        <item>E320 4Matic</item>
+        <item>E320 4Matic (Wagon)</item>
+        <item>E320 4matic</item>
+        <item>E320 4matic (Wagon)</item>
+        <item>E320 Bluetec</item>
+        <item>E320 Cdi</item>
+        <item>E320 Convertible</item>
+        <item>E320 Coupe</item>
+        <item>E320 Sedan</item>
+        <item>E320 Sedan 4Matic</item>
+        <item>E320 Wagon</item>
+        <item>E320 Wagon 4Matic</item>
+        <item>E350</item>
+        <item>E350 (wagon)</item>
+        <item>E350 4Matic</item>
+        <item>E350 4matic</item>
+        <item>E350 4matic (wagon)</item>
+        <item>E350 4matic Coupe</item>
+        <item>E350 Convertible</item>
+        <item>E350 Coupe</item>
+        <item>E400</item>
+        <item>E400 4matic</item>
+        <item>E400 4matic (station wagon)</item>
+        <item>E400 4matic Convertible</item>
+        <item>E400 4matic Coupe</item>
+        <item>E400 Convertible</item>
+        <item>E400 Coupe</item>
+        <item>E400 Hybrid</item>
+        <item>E420</item>
+        <item>E430</item>
+        <item>E430 4Matic</item>
+        <item>E450 4matic</item>
+        <item>E450 4matic (station wagon)</item>
+        <item>E450 4matic All-Terrain (wagon)</item>
+        <item>E450 4matic Convertible</item>
+        <item>E450 4matic Coupe</item>
+        <item>E450 Convertible</item>
+        <item>E450 Coupe</item>
+        <item>E500</item>
+        <item>E500 (Wagon)</item>
+        <item>E500 4matic</item>
+        <item>E500 4matic (Wagon)</item>
+        <item>E500 4matic (wagon)</item>
+        <item>E55 AMG</item>
+        <item>E55 AMG (Wagon)</item>
+        <item>E55 AMG (wagon)</item>
+        <item>E550</item>
+        <item>E550 4matic</item>
+        <item>E550 Convertible</item>
+        <item>E550 Coupe</item>
+        <item>E63 AMG</item>
+        <item>E63 AMG (wagon)</item>
+        <item>E63 AMG 4matic</item>
+        <item>E63 AMG 4matic (wagon)</item>
+        <item>E63 AMG S</item>
+        <item>E63 AMG S 4matic</item>
+        <item>E63 AMG S 4matic (wagon)</item>
+        <item>EQS 450 Plus</item>
+        <item>EQS 580 4matic</item>
+        <item>G500</item>
+        <item>G55 AMG</item>
+        <item>G550</item>
+        <item>G550 4x4</item>
+        <item>G550 4x4 (Special Off-Road Model)</item>
+        <item>G63 AMG</item>
+        <item>GL320 CDI 4matic</item>
+        <item>GL450 4matic</item>
+        <item>GL550 4matic</item>
+        <item>GL63 AMG</item>
+        <item>GLA250</item>
+        <item>GLA250 4matic</item>
+        <item>GLA45 AMG 4matic</item>
+        <item>GLB250</item>
+        <item>GLB250 4matic</item>
+        <item>GLC300</item>
+        <item>GLC300 4matic</item>
+        <item>GLC300 4matic Coupe</item>
+        <item>GLC350e 4matic</item>
+        <item>GLE300 d 4matic</item>
+        <item>GLE350</item>
+        <item>GLE350 4matic</item>
+        <item>GLE350 d 4matic</item>
+        <item>GLE400 4matic</item>
+        <item>GLE450 4matic</item>
+        <item>GLE450 AMG Coupe</item>
+        <item>GLE550e 4matic</item>
+        <item>GLE580 4matic</item>
+        <item>GLK250 Bluetec 4matic</item>
+        <item>GLK350</item>
+        <item>GLK350 4matic</item>
+        <item>GLS450 4matic</item>
+        <item>GLS550 4matic</item>
+        <item>GLS580 4matic</item>
+        <item>GLS600 4matic Maybach</item>
+        <item>ML250 Bluetec 4matic</item>
+        <item>ML320</item>
+        <item>ML320 CDI 4matic</item>
+        <item>ML350</item>
+        <item>ML350 4matic</item>
+        <item>ML400 4matic</item>
+        <item>ML430</item>
+        <item>ML450 Hybrid 4matic</item>
+        <item>ML500</item>
+        <item>ML500 4matic</item>
+        <item>ML55</item>
+        <item>ML55 AMG</item>
+        <item>ML550 4matic</item>
+        <item>ML63 AMG</item>
+        <item>Maybach S 600</item>
+        <item>Maybach S550 4matic</item>
+        <item>Maybach S560 4matic</item>
+        <item>Maybach S600</item>
+        <item>Maybach S650</item>
+        <item>Maybach S650 Convertible</item>
+        <item>Metris (Cargo Van)</item>
+        <item>Metris (Cargo Van, LWB)</item>
+        <item>Metris (Passenger Van)</item>
+        <item>Metris (US Postal Long)</item>
+        <item>Metris (US Postal)</item>
+        <item>R320 CDI 4matic</item>
+        <item>R350</item>
+        <item>R350 4matic</item>
+        <item>R500</item>
+        <item>R500 4matic</item>
+        <item>R63 AMG</item>
+        <item>S320</item>
+        <item>S350</item>
+        <item>S350D</item>
+        <item>S400 Hybrid</item>
+        <item>S420</item>
+        <item>S430</item>
+        <item>S430 4matic</item>
+        <item>S450</item>
+        <item>S450 4matic</item>
+        <item>S500</item>
+        <item>S500 4matic</item>
+        <item>S500 Coupe</item>
+        <item>S500 Sedan</item>
+        <item>S55 AMG</item>
+        <item>S550</item>
+        <item>S550 4matic</item>
+        <item>S550 4matic Coupe</item>
+        <item>S550 Convertible</item>
+        <item>S550e</item>
+        <item>S560</item>
+        <item>S560 4matic</item>
+        <item>S560 4matic Coupe</item>
+        <item>S560 4matic Maybach</item>
+        <item>S560 Convertible</item>
+        <item>S560e</item>
+        <item>S580 4matic</item>
+        <item>S580 4matic Maybach</item>
+        <item>S600</item>
+        <item>S600 Coupe</item>
+        <item>S600 Sedan</item>
+        <item>S63 AMG</item>
+        <item>S63 AMG 4matic</item>
+        <item>S63 AMG 4matic Coupe</item>
+        <item>S65 AMG</item>
+        <item>S65 AMG Convertible</item>
+        <item>S65 AMG Coupe</item>
+        <item>SL320</item>
+        <item>SL400</item>
+        <item>SL450</item>
+        <item>SL500</item>
+        <item>SL55 AMG</item>
+        <item>SL550</item>
+        <item>SL600</item>
+        <item>SL63 AMG</item>
+        <item>SL65 AMG</item>
+        <item>SLC300</item>
+        <item>SLK230</item>
+        <item>SLK230 Kompressor</item>
+        <item>SLK250</item>
+        <item>SLK280</item>
+        <item>SLK300</item>
+        <item>SLK32 AMG</item>
+        <item>SLK320</item>
+        <item>SLK350</item>
+        <item>SLK55 AMG</item>
+        <item>SLR</item>
+        <item>SLS AMG</item>
+        <item>SLS AMG Black Series Coupe</item>
+        <item>SLS AMG Coupe</item>
+        <item>SLS AMG GT Coupe</item>
+        <item>SLS AMG GT Roadster</item>
+        <item>SLS AMG Roadster</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Nissan Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Nissan">
+        <item>Select Your Model</item>
+        <item>200SX</item>
+        <item>240SX</item>
+        <item>300ZX</item>
+        <item>300ZX 2x2</item>
+        <item>350z</item>
+        <item>350z Roadster</item>
+        <item>370Z</item>
+        <item>370Z Roadster</item>
+        <item>370z</item>
+        <item>Altima</item>
+        <item>Altima / Stanza</item>
+        <item>Altima AWD</item>
+        <item>Altima AWD SR/Platinum</item>
+        <item>Altima Coupe</item>
+        <item>Altima Hybrid</item>
+        <item>Altima SR</item>
+        <item>Altima SR/Platinum</item>
+        <item>Altima SV/SL</item>
+        <item>Altra EV</item>
+        <item>Armada 2WD</item>
+        <item>Armada 2WD FFV</item>
+        <item>Armada 4WD</item>
+        <item>Armada 4WD FFV</item>
+        <item>Axxess</item>
+        <item>Axxess AWD</item>
+        <item>Cube</item>
+        <item>Frontier 2WD</item>
+        <item>Frontier 2WD FFV</item>
+        <item>Frontier 4WD</item>
+        <item>Frontier 4WD FFV</item>
+        <item>Frontier V6 2WD</item>
+        <item>Frontier V6 4WD</item>
+        <item>GT-R</item>
+        <item>Hardbody 2WD</item>
+        <item>Hardbody 4WD</item>
+        <item>Hyper-Mini</item>
+        <item>Juke</item>
+        <item>Juke AWD</item>
+        <item>Juke Nismo RS</item>
+        <item>Juke Nismo RS AWD</item>
+        <item>Kicks</item>
+        <item>Leaf</item>
+        <item>Leaf (24 kW-hr battery pack)</item>
+        <item>Leaf (30 kW-hr battery pack)</item>
+        <item>Leaf (40 kW-hr battery pack)</item>
+        <item>Leaf (62 kW-hr battery pack)</item>
+        <item>Leaf SV/SL (62 kW-hr battery pack)</item>
+        <item>Maxima</item>
+        <item>Maxima Wagon</item>
+        <item>Murano 2WD</item>
+        <item>Murano AWD</item>
+        <item>Murano CrossCabriolet</item>
+        <item>Murano FWD</item>
+        <item>Murano Hybrid AWD</item>
+        <item>Murano Hybrid FWD</item>
+        <item>NV200 Cargo Van</item>
+        <item>NV200 NYC Taxi</item>
+        <item>NX</item>
+        <item>NX Coupe</item>
+        <item>Pathfinder 2WD</item>
+        <item>Pathfinder 4WD</item>
+        <item>Pathfinder 4WD Platinum</item>
+        <item>Pathfinder Armada 2WD</item>
+        <item>Pathfinder Armada 4WD</item>
+        <item>Pathfinder FE 2WD</item>
+        <item>Pathfinder Hybrid 2WD</item>
+        <item>Pathfinder Hybrid 4WD</item>
+        <item>Pathfinder Van (cargo)</item>
+        <item>Pickup 2WD</item>
+        <item>Pickup 4WD</item>
+        <item>Pickup Cab Chassis</item>
+        <item>Pulsar NX</item>
+        <item>Pulsar/Pulsar-NX</item>
+        <item>Quest</item>
+        <item>Rogue AWD</item>
+        <item>Rogue AWD  SV/SL/Platinum</item>
+        <item>Rogue AWD SL/Platinum</item>
+        <item>Rogue FWD</item>
+        <item>Rogue FWD  SV/SL/Platinum</item>
+        <item>Rogue FWD SL/Platinum</item>
+        <item>Rogue Hybrid  AWD</item>
+        <item>Rogue Hybrid  FWD</item>
+        <item>Rogue Select AWD</item>
+        <item>Rogue Select FWD</item>
+        <item>Rogue Sport</item>
+        <item>Rogue Sport AWD</item>
+        <item>Rogue Sport FWD</item>
+        <item>Sentra</item>
+        <item>Sentra Classic</item>
+        <item>Sentra Coupe</item>
+        <item>Sentra FE</item>
+        <item>Sentra Honeybee</item>
+        <item>Sentra Nismo</item>
+        <item>Sentra SR</item>
+        <item>Sentra Wagon</item>
+        <item>Sentra Wagon 4WD</item>
+        <item>Sentra/200SX</item>
+        <item>Stanza</item>
+        <item>Stanza Wagon 2WD</item>
+        <item>Stanza Wagon 4WD</item>
+        <item>Titan 2WD</item>
+        <item>Titan 2WD FFV</item>
+        <item>Titan 4WD</item>
+        <item>Titan 4WD  PRO4X</item>
+        <item>Titan 4WD FFV</item>
+        <item>Titan 4WD PRO-4X</item>
+        <item>Titan 4WD PRO4X</item>
+        <item>Titan FE 2WD</item>
+        <item>Titan FE 2WD FFV</item>
+        <item>Truck 2WD</item>
+        <item>Truck 2WD (new Version)</item>
+        <item>Truck 4WD</item>
+        <item>Truck 4WD (new Version)</item>
+        <item>Truck Cab Chassis 2WD</item>
+        <item>Van (cargo)</item>
+        <item>Van (passenger)</item>
+        <item>Van(cargo)</item>
+        <item>Versa</item>
+        <item>Versa FE</item>
+        <item>Xterra 2WD</item>
+        <item>Xterra 4WD</item>
+        <item>Xterra V6 2WD</item>
+        <item>Xterra V6 4WD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Porsche Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Porsche">
+        <item>Select Your Model</item>
+        <item>718 Boxster</item>
+        <item>718 Boxster GTS</item>
+        <item>718 Boxster S</item>
+        <item>718 Boxster T</item>
+        <item>718 Cayman</item>
+        <item>718 Cayman GT4</item>
+        <item>718 Cayman GTS</item>
+        <item>718 Cayman S</item>
+        <item>718 Cayman T</item>
+        <item>718 Spyder</item>
+        <item>911</item>
+        <item>911 C4 GTS</item>
+        <item>911 C4 GTS Cabriolet</item>
+        <item>911 Carrera</item>
+        <item>911 Carrera 2/4</item>
+        <item>911 Carrera 4</item>
+        <item>911 Carrera 4 Cabriolet</item>
+        <item>911 Carrera 4 GTS</item>
+        <item>911 Carrera 4 GTS Cabriolet</item>
+        <item>911 Carrera 4 Targa</item>
+        <item>911 Carrera 4/2</item>
+        <item>911 Carrera 4S</item>
+        <item>911 Carrera 4S Cabriolet</item>
+        <item>911 Carrera 4S Targa</item>
+        <item>911 Carrera Cabriolet</item>
+        <item>911 Carrera GTS</item>
+        <item>911 Carrera GTS Cabriolet</item>
+        <item>911 Carrera S</item>
+        <item>911 Carrera S Cabriolet</item>
+        <item>911 Carrera T</item>
+        <item>911 GT2</item>
+        <item>911 GT2 RS</item>
+        <item>911 GT3</item>
+        <item>911 GT3 RS</item>
+        <item>911 GT3 Touring</item>
+        <item>911 GTS</item>
+        <item>911 GTS Cabriolet</item>
+        <item>911 R</item>
+        <item>911 SC</item>
+        <item>911 Speedster</item>
+        <item>911 Targa</item>
+        <item>911 Targa 4</item>
+        <item>911 Targa 4 GTS</item>
+        <item>911 Targa 4S</item>
+        <item>911 Turbo</item>
+        <item>911 Turbo Cabriolet</item>
+        <item>911 Turbo Coupe</item>
+        <item>911 Turbo S</item>
+        <item>911 Turbo S Cabriolet</item>
+        <item>911 Turbo S Coupe</item>
+        <item>911 Turbo S Exclusive</item>
+        <item>911 Turbo S Exclusive Cabriolet</item>
+        <item>918 Spyder</item>
+        <item>924 S</item>
+        <item>928 GTS</item>
+        <item>928 S</item>
+        <item>928 S4</item>
+        <item>944</item>
+        <item>944 S</item>
+        <item>944 S2</item>
+        <item>944 Turbo</item>
+        <item>968</item>
+        <item>Boxster</item>
+        <item>Boxster GTS</item>
+        <item>Boxster S</item>
+        <item>Boxster Spyder</item>
+        <item>Boxster T</item>
+        <item>Carrera</item>
+        <item>Carrera 2 911 GT3</item>
+        <item>Carrera 2 Cabriolet</item>
+        <item>Carrera 2 Cabriolet Kit</item>
+        <item>Carrera 2 Coupe</item>
+        <item>Carrera 2 Coupe Kit</item>
+        <item>Carrera 2 S Cabriolet</item>
+        <item>Carrera 2 S Coupe</item>
+        <item>Carrera 4</item>
+        <item>Carrera 4 Cabriolet</item>
+        <item>Carrera 4 Cabriolet Kit</item>
+        <item>Carrera 4 Coupe</item>
+        <item>Carrera 4 S</item>
+        <item>Carrera 4 S Cabriolet</item>
+        <item>Carrera 4 S Cabriolet Kit</item>
+        <item>Carrera 4 S Coupe</item>
+        <item>Carrera 4 S Kit</item>
+        <item>Carrera 4 S Targa</item>
+        <item>Carrera 4 Targa</item>
+        <item>Carrera GT</item>
+        <item>Cayenne</item>
+        <item>Cayenne / Cayenne Coupe</item>
+        <item>Cayenne Coupe</item>
+        <item>Cayenne Diesel</item>
+        <item>Cayenne GTS</item>
+        <item>Cayenne GTS Coupe</item>
+        <item>Cayenne Platinum</item>
+        <item>Cayenne S</item>
+        <item>Cayenne S Coupe</item>
+        <item>Cayenne S Hybrid</item>
+        <item>Cayenne S e-Hybrid</item>
+        <item>Cayenne TransSiberia</item>
+        <item>Cayenne Turbo</item>
+        <item>Cayenne Turbo Coupe</item>
+        <item>Cayenne Turbo GT Coupe</item>
+        <item>Cayenne Turbo Kit</item>
+        <item>Cayenne Turbo S</item>
+        <item>Cayenne Turbo S e-Hybrid</item>
+        <item>Cayenne Turbo S e-Hybrid Coupe</item>
+        <item>Cayenne Turbo S/Coupe E-Hybrid</item>
+        <item>Cayenne e-Hybrid</item>
+        <item>Cayenne e-Hybrid Coupe</item>
+        <item>Cayenne/Coupe E-Hybrid</item>
+        <item>Cayman</item>
+        <item>Cayman GT4</item>
+        <item>Cayman GTS</item>
+        <item>Cayman R</item>
+        <item>Cayman S</item>
+        <item>Cayman T</item>
+        <item>Macan</item>
+        <item>Macan GTS</item>
+        <item>Macan S</item>
+        <item>Macan Turbo</item>
+        <item>Macan Turbo Kit</item>
+        <item>New 911 Carrera</item>
+        <item>New 911 Carrera Cabriolet</item>
+        <item>New 911 Carrera S</item>
+        <item>New 911 Carrera S Cabriolet</item>
+        <item>Panamera</item>
+        <item>Panamera 4</item>
+        <item>Panamera 4 E-Hybrid/Exec/ST</item>
+        <item>Panamera 4 Executive</item>
+        <item>Panamera 4 ST</item>
+        <item>Panamera 4 e-Hybrid</item>
+        <item>Panamera 4 e-Hybrid Executive</item>
+        <item>Panamera 4 e-Hybrid ST</item>
+        <item>Panamera 4S</item>
+        <item>Panamera 4S E-Hybrid/Exec/ST</item>
+        <item>Panamera 4S Executive</item>
+        <item>Panamera 4S ST</item>
+        <item>Panamera 4S e-Hybrid</item>
+        <item>Panamera 4S e-Hybrid Executive</item>
+        <item>Panamera 4S e-Hybrid ST</item>
+        <item>Panamera GTS</item>
+        <item>Panamera GTS ST</item>
+        <item>Panamera S</item>
+        <item>Panamera S E-Hybrid</item>
+        <item>Panamera S Hybrid</item>
+        <item>Panamera Turbo</item>
+        <item>Panamera Turbo Exec</item>
+        <item>Panamera Turbo Executive</item>
+        <item>Panamera Turbo S</item>
+        <item>Panamera Turbo S Executive</item>
+        <item>Panamera Turbo S ST</item>
+        <item>Panamera Turbo S e-Hybrid</item>
+        <item>Panamera Turbo S e-Hybrid Executive</item>
+        <item>Panamera Turbo S e-Hybrid ST</item>
+        <item>Panamera Turbo S/Exec/ST</item>
+        <item>Panamera Turbo ST</item>
+        <item>Panamera TurboS E-Hybrid/Exec/ST</item>
+        <item>Targa</item>
+        <item>Targa Kit</item>
+        <item>Taycan 4 Cross Turismo</item>
+        <item>Taycan 4S Cross Turismo</item>
+        <item>Taycan 4S Perf Battery</item>
+        <item>Taycan 4S Perf Battery Plus</item>
+        <item>Taycan Perf Battery</item>
+        <item>Taycan Perf Battery Plus</item>
+        <item>Taycan Turbo</item>
+        <item>Taycan Turbo Cross Turismo</item>
+        <item>Taycan Turbo S</item>
+        <item>Taycan Turbo S Cross Turismo</item>
+        <item>Turbo</item>
+        <item>Turbo 2 911 GT2</item>
+        <item>Turbo 2 911 Gt2</item>
+        <item>Turbo 4 911</item>
+        <item>Turbo 4 911 Cab</item>
+        <item>Turbo 4 911 Cab Kit</item>
+        <item>Turbo 4 911 Kit</item>
+        <item>Turbo 4 911 S</item>
+        <item>Turbo 4 911 Turbo</item>
+        <item>Turbo 4 911 Turbo Cab S</item>
+        <item>Turbo GT2</item>
+        <item>Turbo Kit</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Ram Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+    
+    <string-array name="array_Ram">
+        <item>Select Your Model</item>
+        <item>1500 2WD</item>
+        <item>1500 4WD</item>
+        <item>1500 Classic 2WD</item>
+        <item>1500 Classic 4WD</item>
+        <item>1500 HFE 2WD</item>
+        <item>1500 TRX 4WD</item>
+        <item>C/V</item>
+        <item>C/V Cargo Van</item>
+        <item>C/V Tradesman</item>
+        <item>Promaster City</item>
+    </string-array>
+
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Subaru Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+    
+    <string-array name="array_Subaru">
+        <item>Select Your Model</item>
+        <item>3 Door 4WD Turbo</item>
+        <item>Ascent</item>
+        <item>Ascent Limited/Touring</item>
+        <item>Ascent Limited/Touring/Onyx AWD</item>
+        <item>B9 Tribeca AWD</item>
+        <item>BRZ</item>
+        <item>BRZ tS</item>
+        <item>Baja AWD</item>
+        <item>Brat 4WD</item>
+        <item>Crosstrek AWD</item>
+        <item>Crosstrek Hybrid AWD</item>
+        <item>Forester AWD</item>
+        <item>Forester Wilderness AWD</item>
+        <item>Hatchback</item>
+        <item>Hatchback 4WD</item>
+        <item>Impreza</item>
+        <item>Impreza 4-Door</item>
+        <item>Impreza 5-Door</item>
+        <item>Impreza AWD</item>
+        <item>Impreza Sport 4-Door</item>
+        <item>Impreza Sport 5-Door</item>
+        <item>Impreza Sport AWD</item>
+        <item>Impreza Wagon</item>
+        <item>Impreza Wagon AWD</item>
+        <item>Impreza Wagon/Outback SPT AWD</item>
+        <item>Impreza Wagon/Outback Sport</item>
+        <item>Impreza Wagon/Outback Sport AWD</item>
+        <item>Justy</item>
+        <item>Justy 4WD</item>
+        <item>Justy AWD</item>
+        <item>Legacy</item>
+        <item>Legacy 4WD</item>
+        <item>Legacy 4WD Turbo</item>
+        <item>Legacy AWD</item>
+        <item>Legacy AWD (incl. Outback)</item>
+        <item>Legacy AWD Turbo</item>
+        <item>Legacy Turbo</item>
+        <item>Legacy Wagon</item>
+        <item>Legacy Wagon 4WD</item>
+        <item>Legacy Wagon AWD</item>
+        <item>Legacy Wagon AWD (incl. Outback)</item>
+        <item>Legacy Wagon AWD Turbo</item>
+        <item>Legacy/Outback AWD</item>
+        <item>Legacy/Outback Wagon AWD</item>
+        <item>Loyale</item>
+        <item>Loyale 4WD</item>
+        <item>Loyale 4WD Turbo</item>
+        <item>Loyale AWD</item>
+        <item>Loyale Wagon</item>
+        <item>Loyale Wagon 4WD</item>
+        <item>Loyale Wagon 4WD Turbo</item>
+        <item>Loyale Wagon AWD</item>
+        <item>Outback AWD</item>
+        <item>Outback Wagon AWD</item>
+        <item>Outback Wilderness AWD</item>
+        <item>RX Turbo</item>
+        <item>SVX</item>
+        <item>SVX AWD</item>
+        <item>Sedan</item>
+        <item>Sedan 4WD</item>
+        <item>Sedan/3 Door</item>
+        <item>Sedan/3 Door 4WD</item>
+        <item>Sedan/3Door 4WD Turbo</item>
+        <item>Tribeca AWD</item>
+        <item>WRX</item>
+        <item>WRX STI Type RA</item>
+        <item>Wagon</item>
+        <item>Wagon 4WD</item>
+        <item>Wagon 4WD Turbo</item>
+        <item>XT</item>
+        <item>XT 4WD</item>
+        <item>XT-DL</item>
+        <item>XV Crosstrek AWD</item>
+        <item>XV Crosstrek Hybrid AWD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Tesla Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Tesla">
+        <item>Select Your Model</item>
+        <item>Model 3 Long Range</item>
+        <item>Model 3 Long Range  AWD</item>
+        <item>Model 3 Long Range  AWD Performance</item>
+        <item>Model 3 Long Range AWD</item>
+        <item>Model 3 Long Range AWD Performance</item>
+        <item>Model 3 Long Range Performance AWD (18in)</item>
+        <item>Model 3 Long Range Performance AWD (19in)</item>
+        <item>Model 3 Long Range Performance AWD (20in)</item>
+        <item>Model 3 Mid Range</item>
+        <item>Model 3 Performance AWD</item>
+        <item>Model 3 RWD</item>
+        <item>Model 3 Standard Range</item>
+        <item>Model 3 Standard Range Plus</item>
+        <item>Model 3 Standard Range Plus RWD</item>
+        <item>Model S</item>
+        <item>Model S (40 kW-hr battery pack)</item>
+        <item>Model S (60 kW-hr battery pack)</item>
+        <item>Model S (70 kW-hr battery pack)</item>
+        <item>Model S (75 kW-hr battery pack)</item>
+        <item>Model S (85 kW-hr battery pack)</item>
+        <item>Model S (90 kW-hr battery pack)</item>
+        <item>Model S 100D</item>
+        <item>Model S 75D</item>
+        <item>Model S 75kWh</item>
+        <item>Model S AWD (85 kW-hr battery pack)</item>
+        <item>Model S AWD - 100D</item>
+        <item>Model S AWD - 60D</item>
+        <item>Model S AWD - 70D</item>
+        <item>Model S AWD - 75D</item>
+        <item>Model S AWD - 85D</item>
+        <item>Model S AWD - 90D</item>
+        <item>Model S AWD - P100D</item>
+        <item>Model S AWD - P85D</item>
+        <item>Model S AWD - P90D</item>
+        <item>Model S Long Range</item>
+        <item>Model S Long Range Plus</item>
+        <item>Model S P100D</item>
+        <item>Model S Performance (19in Wheels)</item>
+        <item>Model S Performance (21in Wheels)</item>
+        <item>Model S Plaid (19in Wheels)</item>
+        <item>Model S Plaid (21in Wheels)</item>
+        <item>Model S Standard Range</item>
+        <item>Model X</item>
+        <item>Model X 100D</item>
+        <item>Model X 75D</item>
+        <item>Model X AWD - 100D</item>
+        <item>Model X AWD - 60D</item>
+        <item>Model X AWD - 75D</item>
+        <item>Model X AWD - 90D</item>
+        <item>Model X AWD - P100D</item>
+        <item>Model X AWD - P90D</item>
+        <item>Model X Long Range</item>
+        <item>Model X Long Range Plus</item>
+        <item>Model X P100D</item>
+        <item>Model X Performance (20in Wheels)</item>
+        <item>Model X Performance (22in Wheels)</item>
+        <item>Model X Plaid (20in Wheels)</item>
+        <item>Model X Plaid (22in Wheels)</item>
+        <item>Model X Standard Range</item>
+        <item>Model Y AWD</item>
+        <item>Model Y Long Range AWD</item>
+        <item>Model Y Performance AWD</item>
+        <item>Model Y Performance AWD (21in Wheels)</item>
+        <item>Model Y RWD</item>
+        <item>Model Y Standard Range RWD</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Toyota Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Toyota">
+        <item>Select Your Model</item>
+        <item>1-Ton Truck 2WD</item>
+        <item>4Runner 2WD</item>
+        <item>4Runner 4WD</item>
+        <item>86</item>
+        <item>Avalon</item>
+        <item>Avalon AWD</item>
+        <item>Avalon Hybrid</item>
+        <item>Avalon Hybrid XLE</item>
+        <item>Avalon TRD</item>
+        <item>Avalon XLE</item>
+        <item>C-HR</item>
+        <item>Cab Chassis 2WD</item>
+        <item>Cab/Chassis</item>
+        <item>Cab/Chassis 2WD</item>
+        <item>Camry</item>
+        <item>Camry AWD LE/SE</item>
+        <item>Camry AWD XLE/XSE</item>
+        <item>Camry CNG</item>
+        <item>Camry Hybrid</item>
+        <item>Camry Hybrid LE</item>
+        <item>Camry Hybrid SE/XLE/XSE</item>
+        <item>Camry Hybrid XLE</item>
+        <item>Camry Hybrid XLE/SE</item>
+        <item>Camry LE/SE</item>
+        <item>Camry Solara</item>
+        <item>Camry Solara Convertible</item>
+        <item>Camry TRD</item>
+        <item>Camry Wagon</item>
+        <item>Camry XLE/XSE</item>
+        <item>Camry XSE</item>
+        <item>Cargo Van 2WD</item>
+        <item>Cargo Van 4WD</item>
+        <item>Celica</item>
+        <item>Celica Convertible</item>
+        <item>Celica Supra</item>
+        <item>Corolla</item>
+        <item>Corolla APEX</item>
+        <item>Corolla All-Trac Wagon</item>
+        <item>Corolla Cross</item>
+        <item>Corolla Cross 4WD</item>
+        <item>Corolla FX</item>
+        <item>Corolla Hatchback</item>
+        <item>Corolla Hatchback XSE</item>
+        <item>Corolla Hybrid</item>
+        <item>Corolla LE Eco</item>
+        <item>Corolla Sport</item>
+        <item>Corolla Wagon</item>
+        <item>Corolla XLE</item>
+        <item>Corolla XSE</item>
+        <item>Corolla iM</item>
+        <item>Cressida</item>
+        <item>Cressida Wagon</item>
+        <item>Echo</item>
+        <item>FJ Cruiser 2WD</item>
+        <item>FJ Cruiser 4WD</item>
+        <item>GR 86</item>
+        <item>GR Supra</item>
+        <item>Highlander</item>
+        <item>Highlander 2WD</item>
+        <item>Highlander 4WD</item>
+        <item>Highlander AWD</item>
+        <item>Highlander AWD LE</item>
+        <item>Highlander Hybrid</item>
+        <item>Highlander Hybrid 2WD</item>
+        <item>Highlander Hybrid 4WD</item>
+        <item>Highlander Hybrid AWD</item>
+        <item>Highlander Hybrid AWD LE Plus</item>
+        <item>Highlander Hybrid AWD LTD/PLAT</item>
+        <item>Highlander LE/XLE/SE/LTD</item>
+        <item>Land Cruiser Wagon 4WD</item>
+        <item>MR2</item>
+        <item>Matrix</item>
+        <item>Matrix AWD</item>
+        <item>Paseo</item>
+        <item>Paseo Convertible</item>
+        <item>Previa</item>
+        <item>Previa All-Trac</item>
+        <item>Prius</item>
+        <item>Prius AWD</item>
+        <item>Prius Eco</item>
+        <item>Prius Plug-in Hybrid</item>
+        <item>Prius Prime</item>
+        <item>Prius c</item>
+        <item>Prius v</item>
+        <item>RAV4</item>
+        <item>RAV4 2WD</item>
+        <item>RAV4 4WD</item>
+        <item>RAV4 AWD</item>
+        <item>RAV4 AWD LE</item>
+        <item>RAV4 AWD TRD OFFROAD</item>
+        <item>RAV4 EV</item>
+        <item>RAV4 Hybrid  AWD</item>
+        <item>RAV4 Hybrid AWD</item>
+        <item>RAV4 LE/XLE</item>
+        <item>RAV4 Limited AWD</item>
+        <item>RAV4 Limited AWD/SE AWD</item>
+        <item>RAV4 Prime 4WD</item>
+        <item>RAV4 Soft Top 2WD</item>
+        <item>RAV4 Soft Top 4WD</item>
+        <item>Sequoia 2WD</item>
+        <item>Sequoia 4WD</item>
+        <item>Sequoia 4WD FFV</item>
+        <item>Sienna 2WD</item>
+        <item>Sienna 4WD</item>
+        <item>Sienna AWD</item>
+        <item>Sienna Hybrid 2WD</item>
+        <item>Sienna Hybrid AWD</item>
+        <item>Starlet</item>
+        <item>Supra</item>
+        <item>T100 2WD</item>
+        <item>T100 4WD</item>
+        <item>Tacoma 2WD</item>
+        <item>Tacoma 4WD</item>
+        <item>Tacoma 4WD D-CAB MT TRD-ORP/PRO</item>
+        <item>Tacoma 4WD Double Cab</item>
+        <item>Tacoma 4WD Double Cab Off-Road</item>
+        <item>Tacoma 4WD TRD PRO</item>
+        <item>Tercel</item>
+        <item>Tercel EZ</item>
+        <item>Tercel Wagon</item>
+        <item>Tercel Wagon 2WD</item>
+        <item>Tercel Wagon 4WD</item>
+        <item>Truck 2WD</item>
+        <item>Truck 2WD/T100 2WD</item>
+        <item>Truck 4WD</item>
+        <item>Truck 4WD/T100 4WD</item>
+        <item>Tundra 2WD</item>
+        <item>Tundra 2WD FFV</item>
+        <item>Tundra 4WD</item>
+        <item>Tundra 4WD FFV</item>
+        <item>Tundra 4WD PRO</item>
+        <item>Van 2WD</item>
+        <item>Van 2WD (cargo)</item>
+        <item>Van 2WD (passenger)</item>
+        <item>Van 4WD</item>
+        <item>Van 4WD (cargo)</item>
+        <item>Van 4WD (passenger)</item>
+        <item>Venza</item>
+        <item>Venza 4WD</item>
+        <item>Venza AWD</item>
+        <item>Yaris</item>
+        <item>Yaris iA</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Volkswagen Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+    
+    <string-array name="array_Volkswagen">
+        <item>Select Your Model</item>
+        <item>Arteon</item>
+        <item>Arteon 4motion</item>
+        <item>Atlas</item>
+        <item>Atlas 4motion</item>
+        <item>Atlas Cross Sport</item>
+        <item>Atlas Cross Sport 4motion</item>
+        <item>Beetle</item>
+        <item>Beetle Convertible</item>
+        <item>Beetle Dune</item>
+        <item>Beetle Dune Convertible</item>
+        <item>CC</item>
+        <item>CC 4motion</item>
+        <item>Cabrio</item>
+        <item>Cabriolet</item>
+        <item>Corrado</item>
+        <item>Corrado SLC</item>
+        <item>Eos</item>
+        <item>Eurovan</item>
+        <item>Eurovan Camper</item>
+        <item>Fox</item>
+        <item>Fox GL Wagon</item>
+        <item>Fox Wagon</item>
+        <item>GLI</item>
+        <item>GTI</item>
+        <item>GTI 16v</item>
+        <item>GTI VR6</item>
+        <item>GTI/Golf GT</item>
+        <item>Golf</item>
+        <item>Golf Alltrack</item>
+        <item>Golf III</item>
+        <item>Golf III / GTI</item>
+        <item>Golf R</item>
+        <item>Golf SportWagen</item>
+        <item>Golf SportWagen 4motion</item>
+        <item>Golf-R</item>
+        <item>Golf/GTI</item>
+        <item>ID.4 1st</item>
+        <item>ID.4 AWD Pro</item>
+        <item>ID.4 AWD Pro S</item>
+        <item>ID.4 Pro</item>
+        <item>ID.4 Pro S</item>
+        <item>Jetta</item>
+        <item>Jetta GLI</item>
+        <item>Jetta GLI 16v</item>
+        <item>Jetta GLI/Wolfsburg Edition</item>
+        <item>Jetta GLX</item>
+        <item>Jetta Hybrid</item>
+        <item>Jetta III</item>
+        <item>Jetta III GLX</item>
+        <item>Jetta SE/SEL</item>
+        <item>Jetta SportWagen</item>
+        <item>Jetta Wagon</item>
+        <item>New Beetle</item>
+        <item>New Beetle Convertible</item>
+        <item>New GTI</item>
+        <item>New Golf</item>
+        <item>New Jetta</item>
+        <item>Passat</item>
+        <item>Passat 4motion</item>
+        <item>Passat Syncro</item>
+        <item>Passat Wagon</item>
+        <item>Passat Wagon 4motion</item>
+        <item>Passat Wagon Syncro</item>
+        <item>Phaeton</item>
+        <item>Quantum</item>
+        <item>Quantum Syncro Wagon</item>
+        <item>Quantum Wagon</item>
+        <item>R32</item>
+        <item>Rabbit</item>
+        <item>Rabbit Convertible</item>
+        <item>Routan</item>
+        <item>Routan FWD</item>
+        <item>Scirocco</item>
+        <item>Scirocco 16v</item>
+        <item>Taos</item>
+        <item>Taos 4motion</item>
+        <item>Tiguan</item>
+        <item>Tiguan 4motion</item>
+        <item>Tiguan Limited</item>
+        <item>Tiguan Limited 4motion</item>
+        <item>Tiguan R-Line 4motion</item>
+        <item>Touareg</item>
+        <item>Touareg Hybrid</item>
+        <item>Vanagon 2WD</item>
+        <item>Vanagon Syncro 4WD</item>
+        <item>Vanagon/Camper 2WD</item>
+        <item>e-Golf</item>
+    </string-array>
+
+    <!-- ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ List of Volvo Models ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ -->
+
+    <string-array name="array_Volvo">
+        <item>Select Your Model</item>
+        <item>240</item>
+        <item>240 DL/240 GL</item>
+        <item>240 DL/240 GL Wagon</item>
+        <item>240 DL/GL/Turbo</item>
+        <item>240 DL/GL/Turbo Wagon</item>
+        <item>240 DL/GL/turbo</item>
+        <item>240 DL/GL/turbo Wagon</item>
+        <item>240 Wagon</item>
+        <item>740</item>
+        <item>740 16-Valve</item>
+        <item>740 16-Valve Wagon</item>
+        <item>740 Wagon</item>
+        <item>740/760</item>
+        <item>740/760 Wagon</item>
+        <item>760</item>
+        <item>760 GLE</item>
+        <item>760 Wagon</item>
+        <item>780</item>
+        <item>850</item>
+        <item>850 Wagon</item>
+        <item>940</item>
+        <item>940 GLE 16-Valve</item>
+        <item>940 GLE 16-Valve Wagon</item>
+        <item>940 SE</item>
+        <item>940 SE Wagon</item>
+        <item>940 Turbo</item>
+        <item>940 Turbo Wagon</item>
+        <item>940 Wagon</item>
+        <item>960</item>
+        <item>960 Wagon</item>
+        <item>960 Wagon/V90</item>
+        <item>960/S90</item>
+        <item>C30 FWD</item>
+        <item>C40 Recharge twin</item>
+        <item>C70</item>
+        <item>C70 Convertible</item>
+        <item>C70 Coupe</item>
+        <item>C70 FWD</item>
+        <item>Coupe</item>
+        <item>New C70 Convertible</item>
+        <item>S40 AWD</item>
+        <item>S40 FWD</item>
+        <item>S60</item>
+        <item>S60 AWD</item>
+        <item>S60 AWD PHEV</item>
+        <item>S60 B5</item>
+        <item>S60 B5 AWD</item>
+        <item>S60 CC AWD</item>
+        <item>S60 FWD</item>
+        <item>S60 Inscription AWD</item>
+        <item>S60 Inscription FWD</item>
+        <item>S60 PoleStar AWD</item>
+        <item>S60 Polestar AWD</item>
+        <item>S60 R AWD</item>
+        <item>S60 T8 AWD Recharge</item>
+        <item>S60 T8 AWD Recharge ext. Range</item>
+        <item>S70</item>
+        <item>S70 AWD</item>
+        <item>S80</item>
+        <item>S80 AWD</item>
+        <item>S80 FWD</item>
+        <item>S80/S80 Executive</item>
+        <item>S80/S80 Premier</item>
+        <item>S90</item>
+        <item>S90 AWD</item>
+        <item>S90 AWD PHEV</item>
+        <item>S90 B6 AWD</item>
+        <item>S90 FWD</item>
+        <item>S90 T8 AWD Recharge</item>
+        <item>S90 T8 AWD Recharge ext. Range</item>
+        <item>V40</item>
+        <item>V50 AWD</item>
+        <item>V50 FWD</item>
+        <item>V60 AWD</item>
+        <item>V60 AWD PHEV</item>
+        <item>V60 CC AWD</item>
+        <item>V60 CC FWD</item>
+        <item>V60 FWD</item>
+        <item>V60 PoleStar AWD</item>
+        <item>V60 Polestar AWD</item>
+        <item>V60 T8 AWD Recharge</item>
+        <item>V60 T8 AWD Recharge ext. Range</item>
+        <item>V60CC T5 AWD</item>
+        <item>V70 AWD</item>
+        <item>V70 FWD</item>
+        <item>V70 R AWD</item>
+        <item>V70 XC AWD</item>
+        <item>V90</item>
+        <item>V90 AWD</item>
+        <item>V90 CC AWD</item>
+        <item>V90 FWD</item>
+        <item>V90CC B6 AWD</item>
+        <item>XC40 AWD</item>
+        <item>XC40 AWD BEV</item>
+        <item>XC40 FWD</item>
+        <item>XC40 Recharge twin</item>
+        <item>XC40 T4</item>
+        <item>XC40 T5 AWD</item>
+        <item>XC60 AWD</item>
+        <item>XC60 AWD PHEV</item>
+        <item>XC60 B5</item>
+        <item>XC60 B5 AWD</item>
+        <item>XC60 B6 AWD</item>
+        <item>XC60 FWD</item>
+        <item>XC60 T8 AWD Recharge</item>
+        <item>XC60 T8 AWD Recharge ext. Range</item>
+        <item>XC70 AWD</item>
+        <item>XC70 FWD</item>
+        <item>XC90 AWD</item>
+        <item>XC90 AWD PHEV</item>
+        <item>XC90 FWD</item>
+        <item>XC90 T5</item>
+        <item>XC90 T5 AWD</item>
+        <item>XC90 T6 AWD</item>
+        <item>XC90 T8 AWD Recharge</item>
+        <item>XC90 T8 AWD Recharge ext. Range</item>
+    </string-array>
+</resources>

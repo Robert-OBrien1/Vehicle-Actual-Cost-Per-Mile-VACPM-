@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29CBDA"
+    android:textAlignment="center"
+    tools:context=".AddvehicleActivity">
+
+
+    <Spinner
+        android:id="@+id/listofvehiclesspinner"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/addvehiclebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listofvehiclestextbox" />
+
+    <ImageButton
+        android:id="@+id/graphbutton"
+        android:layout_width="224dp"
+        android:layout_height="104dp"
+        android:src="@drawable/graphbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addvehiclebutton" />
+
+    <ImageButton
+        android:id="@+id/addvehiclebutton"
+        android:layout_width="224dp"
+        android:layout_height="111dp"
+        app:layout_constraintBottom_toTopOf="@+id/graphbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listofvehiclesspinner"
+        app:srcCompat="@drawable/carbutton" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="238dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toTopOf="@+id/vacpmtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appicon" />
+
+    <TextView
+        android:id="@+id/vacpmtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:text="Vehicle Actual Cost Per Mile"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/listofvehiclestextbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/listofvehiclestextbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="↓ Your List of Vehicles ↓"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/listofvehiclesspinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacpmtext" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
